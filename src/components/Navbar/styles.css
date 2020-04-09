@@ -4,33 +4,52 @@ body {
   
   .sidenav {
     height: 100%;
-    width: 300px;
+    width: 25%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
+    /* border-right: 10px rgb(27, 27, 27) solid; */
     background-color: #111;
+    background-image: url("https://img.freepik.com/free-photo/multicolored-paper-background_23-2148182446.jpg?size=626&ext=jpg");
+
     overflow-x: hidden;
     padding-top: 20px;
   }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
+
+  .icons img{
+      width: 35px;
+      height: 35px;
+      margin-left: 55px;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      /* display: block; */
+  }
+
+  nav a {
+    padding: 30px 2px 30px 2px;
     text-decoration: none;
     font-size: 25px;
     text-align: center;
-    color: #818181;
+    background-color: rgb(163, 230, 241);
+    color: #3d3c3caf;
     display: block;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    /* color: #f1f1f1; */
+    color: black;
+  }
+
+  nav {
+    border-top: 6px #4B4B4C solid;
+    border-bottom: 6px #4B4B4C solid;
   }
   
   .main {
     margin-left: 160px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
   }
   
   @media screen and (max-height: 450px) {
@@ -41,5 +60,5 @@ body {
   img {
     border-radius: 50%;
     margin-left: 20%;
-    margin-bottom: 40%;
+    /* margin-bottom: 20%; */
   }
