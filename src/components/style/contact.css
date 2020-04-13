@@ -1,0 +1,19 @@
+.contact{
+    margin-left: 29%;
+    margin-top: 10%;
+    text-align: center;
+}
+.contact h1{
+    margin-top: 12%;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 75px;
+    /* color: white; */
+    /* color: rgb(252, 219, 225); */
+    /* light pink/white */
+    /* color: #e1e0e2ef; */
+    /* dark gray */
+    /* color: #4b4b4c; */
+    /* whiteish gray */
+    color: rgba(228, 225, 225, 0.974);
+
+}

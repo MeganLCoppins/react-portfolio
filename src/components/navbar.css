@@ -20,20 +20,32 @@ body {
   .icons img{
       width: 35px;
       height: 35px;
-      margin-left: 58px;
+      margin-left: 64px;
       margin-top: 4%;
       margin-bottom: 4%;
       /* display: block; */
   }
 
-  nav a {
-    padding: 30px 2px 30px 2px;
-    text-decoration: none;
+li {
+    /* padding: 30px 2px 30px 2px; */
+    /* text-decoration: none; */
+    padding-top: 8%;
     font-size: 25px;
     text-align: center;
-    background-color: rgb(163, 230, 241);
-    color: #3d3c3caf;
+    /* light blue */
+    /* background-color: rgb(163, 230, 241); */
+    /* light gray white */
+    /* color: #c6c6c6; */
+    color: #4b4b4c;
+    /* dark teal blue */
+    /* background-color: rgb(46, 151, 170); */
+    /* dark gray */
+    /* background-color: #4B4B4C; */
     display: block;
+  }
+
+  li a {
+    color: #4b4b4c;
   }
   
   .sidenav a:hover {
@@ -44,6 +56,7 @@ body {
   nav {
     border-top: 6px #4B4B4C solid;
     border-bottom: 6px #4B4B4C solid;
+    background-color: rgb(163, 230, 241);
   }
   
   .main {
@@ -57,9 +70,9 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
-  img {
+  .circlePic img {
     border-radius: 50%;
-    margin-left: 22%;
+    margin-left: 23%;
     margin-bottom: 1%;
   }
 

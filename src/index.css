@@ -5,7 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* dark purple */
+    /* background-color: rgb(46, 34, 82); */
+    /* purple */
     background-color: #6d5680;
+    /* light blue */
+    /* background-color: rgb(141, 209, 221); */
+    /* dark gray */
+    /* background-color: #4b4b4c; */
 }
 
 code {

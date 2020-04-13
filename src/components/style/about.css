@@ -1,0 +1,36 @@
+.about{
+    margin-left: 29%;
+    /* margin-top: 10%; */
+}
+.about h1{
+    margin-top: 2%;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 80px;
+    text-align: center;
+    /* color: white; */
+    /* color: rgb(252, 219, 225); */
+    /* light pink/white */
+    /* color: #e1e0e2ef; */
+    /* dark gray */
+    /* color: #4b4b4c; */
+    /* whiteish gray */
+    color: rgba(228, 225, 225, 0.974);
+
+}
+.aboutImg {
+    display: inline-flex;
+}
+
+.aboutImg img {
+    width: 55px;
+    height: 55px;
+    /* margin-left: 4%;
+    margin-top: 8%; */
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+@media screen and (max-width: 775px){
+    .aboutImg img {margin-left: 0%;}
+    .aboutImg img {display: block;}
+}

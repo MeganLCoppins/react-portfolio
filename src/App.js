@@ -1,21 +1,23 @@
-import React from 'react';
-import './App.css';
-import Navbar from "./components/Navbar/index";
-import "materialize-css";
-import About from './components/Carousel/index';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/navbar";
+import Home from "./components/pages/home";
+import About from "./components/pages/about";
+import Portfolio from "./components/pages/portfolio";
+import Contact from "./components/pages/contact";
 
-class App extends React.Component {
-
-  render(){
-    return(
-      <div className="container">
-      <Navbar />
-        <div className="layout">
-          <About />
-        </div>
+function App(){
+  return (
+    <Router>
+      <div>
+        <Navbar />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
       </div>
-    )
-  }
+    </Router>
+  )
 }
 
 export default App;
