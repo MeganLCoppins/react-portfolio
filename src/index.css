@@ -1,4 +1,10 @@
 body {
+  /* background-image: url("https://www.caloundrarsl.com.au/wp-content/uploads/2018/08/black-background-gold-sparkles-RESIZED.jpg"); */
+  /* background-image: url("https://us.123rf.com/450wm/nevodka/nevodka1802/nevodka180200120/95062530-golden-glitter-falling-sparkle-background-on-black.jpg?ver=6"); */
+
+  /* background-image: url("https://cdn130.picsart.com/275952172023201.jpg?type=webp&to=min&r=640"); */
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5947fa5fccf210058d40c358/1547902021159-KRORROTG066S787CY57N/ke17ZwdGBToddI8pDm48kOujMOVN0PnDyQw8r-BQw9wUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdJocnQIIinSH3gKMVYBO3O6aay-5SMCMK1H3pEdK9CO7cO9ehlL6QM7dW_ym34oXSU/3d55bd9974f2d99c61ad802645445607--cellphone-wallpaper-white-wallpaper.jpg?format=2500w");
+  /* background-color: black; */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,15 +13,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* dark purple */
     /* background-color: rgb(46, 34, 82); */
+
+
     /* purple */
-    background-color: #6d5680;
+    /* background-color: #6d5680; */
+
+
+
     /* light blue */
     /* background-color: rgb(141, 209, 221); */
     /* dark gray */
     /* background-color: #4b4b4c; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

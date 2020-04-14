@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/portfolio.css";
 
+
 function Portfolio() {
     return (
         <div className="portfolio">

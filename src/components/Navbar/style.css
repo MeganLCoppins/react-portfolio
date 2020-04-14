@@ -9,9 +9,10 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    /* border-right: 10px rgb(27, 27, 27) solid; */
-    background-color: #111;
-    background-image: url("https://img.freepik.com/free-photo/multicolored-paper-background_23-2148182446.jpg?size=626&ext=jpg");
+    /* background-image: url("https://img.freepik.com/free-photo/multicolored-paper-background_23-2148182446.jpg?size=626&ext=jpg"); */
+    /* ABSTRACT */
+    /* background-image: url("https://i.pinimg.com/736x/a9/6f/17/a96f177c066ae8c5102cc77079466230.jpg"); */
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/71/15/abstract-irregular-polygon-background-pastel-vector-16267115.jpg");
 
     overflow-x: hidden;
     padding-top: 20px;
@@ -27,42 +28,32 @@ body {
   }
 
 li {
-    /* padding: 30px 2px 30px 2px; */
-    /* text-decoration: none; */
     padding-top: 8%;
     font-size: 25px;
     text-align: center;
-    /* light blue */
-    /* background-color: rgb(163, 230, 241); */
-    /* light gray white */
-    /* color: #c6c6c6; */
     color: #4b4b4c;
-    /* dark teal blue */
-    /* background-color: rgb(46, 151, 170); */
-    /* dark gray */
-    /* background-color: #4B4B4C; */
     display: block;
   }
 
   li a {
     color: #4b4b4c;
+    font-weight: bold;
   }
   
   .sidenav a:hover {
-    /* color: #f1f1f1; */
     color: black;
   }
 
   nav {
     border-top: 6px #4B4B4C solid;
     border-bottom: 6px #4B4B4C solid;
-    background-color: rgb(163, 230, 241);
+    margin-top: 4%;
+    background-color: pink;
   }
   
   .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    /* padding: 0px 10px; */
+    margin-left: 160px;
+    font-size: 28px;
   }
   
   @media screen and (max-height: 450px) {
@@ -79,5 +70,6 @@ li {
   @media screen and (max-width: 1157px){
       img {margin-left: 0%;
             width: 100%;}
+      .circlePic img {margin-left: 0;}
       .icons img{display: block;}
   }
