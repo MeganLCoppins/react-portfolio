@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Weather Dashboard",
+        "description": "A simple weather application that allows you to search for a city, view the current five-day forecast of your searched city, and view your search history for a quick reference to past searches",
+        "deployed": "https://meganlcoppins.github.io/Weather-Dashboard/",
+        "github": "https://github.com/MeganLCoppins/Weather-Dashboard",
+        "image": "https://raw.githubusercontent.com/MeganLCoppins/Weather-Dashboard/master/assets/images/Screen%20Shot%202020-02-23%20at%205.10.38%20PM.png"
+    },
+    {
+        "id": 2,
+        "title": "Work-Day-Scheduler",
+        "description": "A daily work calendar that allows the user to save their to-dos or events in specific time slots. As the day progresses the time slots change color to show whether the slot is in the past, present or future.",
+        "deployed": "https://meganlcoppins.github.io/Work-Day-Scheduler/",
+        "github": "https://github.com/MeganLCoppins/Work-Day-Scheduler",
+        "image": "https://raw.githubusercontent.com/MeganLCoppins/Work-Day-Scheduler/master/assets/images/Screen%20Shot%202020-02-23%20at%205.11.23%20PM.png"
+    },
+    {
+        "id": 3,
+        "title": "Note-Taker",
+        "description": "A note-taking application for users that need to keep track of a lot of information. The application allows the user to take notes and have written information available when needed.",
+        "deployed": "https://mighty-shelf-20145.herokuapp.com/",
+        "github": "https://github.com/MeganLCoppins/note-taker",
+        "image": "https://camo.githubusercontent.com/fb46a8e962bd20b5b75b6c85932a4d615285dc29/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d6156436a43436c3643455148304166547a2f67697068792e676966"
+    },
+    {
+        "id": 4,
+        "title": "Strategy Scope",
+        "description": "This is a MERN project management application designed to combine a communication tool with a Kanban tool. In order to increase efficiency among teams, this project aims to reduce the need to switch between applications and allow teams to use a one stop shop for their project needs.",
+        "deployed": "http://strategy-scope.herokuapp.com/",
+        "github": "https://github.com/MeganLCoppins/miniature-disco",
+        "image": "https://github.com/MeganLCoppins/miniature-disco/blob/master/images/kanban.png?raw=true"
+    },
+    {
+        "id": 5,
+        "title": "Budget Tracker",
+        "description": "This is a PWA that was created to allow user's to be able to add expenses and deposits to their budget with or without an internet connection.",
+        "deployed": "https://pumpkin-pie-14585.herokuapp.com/",
+        "github": "https://github.com/MeganLCoppins/budget-tracker",
+        "image": "https://github.com/MeganLCoppins/budget-tracker/raw/master/assets/budget_tracker.png"
+    },
+    {
+        "id": 6,
+        "title": "Flavor Savor",
+        "description": "A recipe application that finds and displays recipes based on what food item the user searches for",
+        "deployed": "https://dorntrevor7.github.io/Flavor-Savor/",
+        "github": "https://github.com/MeganLCoppins/Flavor-Savor",
+        "image": "https://github.com/MeganLCoppins/Flavor-Savor/raw/master/assets/imgs/flavor-savor-sc.png"
+    }
+]

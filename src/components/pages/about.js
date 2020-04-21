@@ -6,7 +6,7 @@ function About (){
         <div className="about">
             <h1>Megan Coppins</h1>
             <div className="aboutImg fluid">
-                <img src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg" alt="html5"></img>
+                <img className="imageOne" src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg" alt="html5"></img>
                 <img src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png" alt="css3"></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt="bootstrap"></img>
                 {/* <img src="https://bulma.io/images/bulma-banner.png" alt="bulma"></img> */}

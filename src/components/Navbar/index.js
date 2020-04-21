@@ -7,7 +7,7 @@ function Navbar(){
     return (
     <div className="sidenav">
         <div className="circlePic">
-        <img className="fluid" src="https://media-exp1.licdn.com/dms/image/C4D03AQFdx-nOeBMxtg/profile-displayphoto-shrink_200_200/0?e=1586995200&v=beta&t=XpMsl72ympRvdjy0LMFRQa1pI7J_1aaTNeG5tLEHGag" alt="Me"></img>
+        <img className="fluid" src="https://media-exp1.licdn.com/dms/image/C4D03AQFdx-nOeBMxtg/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=1Xj4vKrYG9yo4V0PEp3G142F7t7HhODMdjTXaKwZO_U" alt="Me"></img>
         </div>
         <div className="icons">
            <a href="https://github.com/MeganLCoppins" target="_blank" rel="noopener noreferrer"> <img  src="https://library.kissclipart.com/20190908/aee/kissclipart-github-icon-logo-icon-media-icon-b93d26ddc375e57b.png" alt="github"></img></a>
