@@ -21,7 +21,7 @@ function Portfolio(){
                   <h2><strong>{project.title}</strong></h2>
                 </Card.Title>
               <Card.Body border="secondary">
-              <Card.Img variant="top" src={project.image}/>
+              <Card.Img variant="top" src={project.image} fluid style={{width: "80%", height: "80%"}}/>
                 <Card.Text>{project.description}</Card.Text>
                   <Card.Link href={project.deployed} style={{ color: "white", fontSize: "25px"}}><strong>Deployed App</strong></Card.Link>
                   <Card.Link href={project.github} style={{ color: "white", fontSize: "25px"}}><strong>GitHub</strong></Card.Link>
