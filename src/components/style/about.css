@@ -4,6 +4,10 @@
     /* color: black; */
     color: rgb(1, 106, 117);
 }
+.about {
+    margin-left: 5%;
+    padding-bottom: 4%;
+}
 .aboutImg {
     margin-top: 5%;
     padding-bottom: 2%;

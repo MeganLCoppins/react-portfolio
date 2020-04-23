@@ -13,7 +13,8 @@ function Contact() {
         <a href="https://docs.google.com/document/d/1WMkMextzoaoaByTTQHhFJt4iTbdCAmappNUgLW3fmDA/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> <img fluid src="https://image.flaticon.com/icons/png/512/14/14573.png" alt="resume"></img></a>
       </div>
       <div className="form">
-      <Form>
+        <h3>MeganLCoppins@gmail.com</h3>
+      {/* <Form>
         <Form.Group controlId="exampleForm.ControlInput1">
           <Form.Label style={{fontSize: "25px"}}>Email address</Form.Label>
           <Form.Control size="lg" type="email" placeholder="name@example.com" />
@@ -22,7 +23,7 @@ function Contact() {
           <Form.Label style={{fontSize: "25px"}}>Message</Form.Label>
           <Form.Control size="lg" as="textarea" rows="5" placeholder="Type your message here!" />
         </Form.Group>
-      </Form>
+      </Form> */}
       </div>
     </div>
   );
