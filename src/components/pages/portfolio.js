@@ -15,7 +15,7 @@ function Portfolio(){
           {projects.map((project) => (
             <CardDeck style={{marginLeft: "0%", marginRight: "8%"}}>
             {/* <Card border="warning" style={{ width: "25rem", height: "42rem",textAlign: "center"}}> */}
-            <Card style={{textAlign: "center"}} border="secondary">
+            <Card style={{textAlign: "center"}} border="light" className="cardBg">
               <Card.Body>
                 <Card.Title style={{fontSize: "55px", paddingTop: "3%"}}>
                   <h2><strong>{project.title}</strong></h2>
@@ -23,8 +23,8 @@ function Portfolio(){
               <Card.Body border="secondary">
               <Card.Img variant="top" src={project.image}/>
                 <Card.Text>{project.description}</Card.Text>
-                  <Card.Link href={project.deployed} style={{ color: "purple", fontSize: "25px"}}><strong>Deployed App</strong></Card.Link>
-                  <Card.Link href={project.github} style={{ color: "purple", fontSize: "25px"}}><strong>GitHub</strong></Card.Link>
+                  <Card.Link href={project.deployed} style={{ color: "white", fontSize: "25px"}}><strong>Deployed App</strong></Card.Link>
+                  <Card.Link href={project.github} style={{ color: "white", fontSize: "25px"}}><strong>GitHub</strong></Card.Link>
                 </Card.Body>
               </Card.Body>
             </Card>

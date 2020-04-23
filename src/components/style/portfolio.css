@@ -2,19 +2,25 @@
     /* font-family: 'Baloo Thambi 2', cursive; */
     font-family: 'Pacifico', cursive;
     font-size: 75px;
-    /* color: #4b4b4c; */
-    color: black;
+    color: rgb(1, 106, 117);
+    /* color: black; */
     margin-bottom: 3%;
 }
 .portfolio{
     margin-left: 0%;
+    color: white;
 }
 .portfolio h2{
     font-family: 'Pacifico', cursive;
-    font-size: 55px;
-    color: black;
+    font-size: 50px;
+    /* color: rgb(1, 106, 117); */
+    color: rgb(250, 229, 229);
 }
 .projectCard {
     margin-right: 8%;
     margin-bottom: 4%;
+}
+.cardBg {
+    /* background-color: rgb(253, 153, 174); */
+    background-color: rgb(1, 106, 117);
 }

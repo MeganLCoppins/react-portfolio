@@ -1,14 +1,42 @@
 .contact{
-    margin-top: 2%;
+    /* margin-top: 2%; */
+    color: black;
+
+    padding-bottom: 4%;
+
     /* text-align: center; */
 }
 .contact h1{
-    margin-top: 2%;
-    margin-bottom: 10%;
+    /* margin-top: 2%; */
+    /* margin-bottom: 5%; */
     font-family: 'Pacifico', cursive;
     /* font-family: 'Baloo Thambi 2', cursive; */
     font-size: 75px;
     /* color: #4b4b4c; */
-    color: black;
-
+    /* color: black; */
+    color: rgb(1, 106, 117);
+}
+.contact img {
+    width: 10%;
+    height: 10%;
+    margin-left: 18%;
+    /* margin-bottom: 3%; */
+    margin-top: 5%;
+}
+.form {
+    margin-bottom: 3%;
+    margin-top: 0%;
+    margin-right: 10%;
+    margin-left: 5%;
+    padding: 3%;
+    /* background-color: rgba(248, 140, 155, 0.926); */
+    background-color: rgb(1, 106, 117);
+}
+.backgroundImg{
+    
+    background-color: rgb(1, 106, 117);
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    /* padding-bottom: 2%; */
 }

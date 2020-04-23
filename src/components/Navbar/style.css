@@ -6,7 +6,8 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 45px;
-    margin-top: 4%;
+    margin-bottom: 6%;
+    color: rgb(1, 106, 117);
   }
   .sidenav {
     height: 100%;
@@ -28,13 +29,13 @@ body {
       width: 35px;
       height: 35px;
       margin-left: 64px;
-      margin-top: 20%;
+      margin-top: 24%;
       margin-bottom: 0;
       /* display: block; */
   }
 
 li {
-    padding-top: 3%;
+    padding-top: 2%;
     font-size: 25px;
     text-align: center;
     display: block;
@@ -43,13 +44,13 @@ li {
 nav {
   background-color: rgb(248, 230, 230);
   opacity: .8;
-  margin-top: 10%;
+  margin-top: 6%;
   /* padding-top: 2%; */
   padding-bottom: 2%;
 }
 
   li a {
-    color: black;
+    color: rgb(247, 50, 116);
 
     /* width: 120px;
     margin-left: 35%; */
@@ -59,7 +60,8 @@ nav {
   
   .sidenav a:hover {
     /* color: black; */
-    color: rgb(247, 50, 116);
+    color: rgb(1, 106, 117);
+    
   }
 
   /* nav {
