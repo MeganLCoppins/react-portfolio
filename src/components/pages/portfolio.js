@@ -1,36 +1,44 @@
-import React from "react";
+import React, { Component, useState } from "react";
 import "../style/portfolio.css";
-import {Card, ListGroup, ListGroupItem} from "react-bootstrap";
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
+import Button from "react-bootstrap/Button";
+import Popover from "react-bootstrap/Popover";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import projects from "../../projects.json";
 
-function Portfolio() {
-  return (
-    <div className="col portfolio">
-      <div className="row">
-        <h1>My Work</h1>
-      </div>
-      <div className="row">
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-          <ListGroup className="list-group-flush">
-            <ListGroupItem>Cras justo odio</ListGroupItem>
-            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-            <ListGroupItem>Vestibulum at eros</ListGroupItem>
-          </ListGroup>
-          <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-      </div>
+function Portfolio(){
+
+    return (
+      <div className="col portfolio">
+          <h1>My Work</h1>
+          {projects.map((project) => (
+            <CardDeck style={{marginLeft: "0%", marginRight: "8%"}}>
+            {/* <Card border="warning" style={{ width: "25rem", height: "42rem",textAlign: "center"}}> */}
+            <Card style={{textAlign: "center"}} border="secondary">
+              <Card.Body>
+                <Card.Title style={{fontSize: "55px", paddingTop: "3%"}}>
+                  <h2><strong>{project.title}</strong></h2>
+                </Card.Title>
+              <Card.Body border="secondary">
+              <Card.Img variant="top" src={project.image}/>
+                <Card.Text>{project.description}</Card.Text>
+                  <Card.Link href={project.deployed} style={{ color: "purple", fontSize: "25px"}}><strong>Deployed App</strong></Card.Link>
+                  <Card.Link href={project.github} style={{ color: "purple", fontSize: "25px"}}><strong>GitHub</strong></Card.Link>
+                </Card.Body>
+              </Card.Body>
+            </Card>
+            </CardDeck>
+
+                  
+                
+                
+
+                
+            // </div>
+          ))}
     </div>
-  );
+    );
 }
 
 export default Portfolio;

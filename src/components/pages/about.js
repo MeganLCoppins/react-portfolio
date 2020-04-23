@@ -4,7 +4,7 @@ import "../style/about.css";
 function About (){
     return (
         <div className="about">
-            <h1>Megan Coppins</h1>
+            <h1>About Me</h1>
             <div className="aboutImg fluid">
                 <img className="imageOne" src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg" alt="html5"></img>
                 <img src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png" alt="css3"></img>

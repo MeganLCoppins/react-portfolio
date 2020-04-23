@@ -11,7 +11,7 @@ import Contact from "./components/pages/contact";
 function App(){
   return (
     <Router>
-      <div>
+      {/* <div> */}
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Home} />
@@ -19,7 +19,7 @@ function App(){
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
-      </div>
+      {/* </div> */}
     </Router>
   )
 }

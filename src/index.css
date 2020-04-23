@@ -3,8 +3,12 @@ body {
   /* background-image: url("https://us.123rf.com/450wm/nevodka/nevodka1802/nevodka180200120/95062530-golden-glitter-falling-sparkle-background-on-black.jpg?ver=6"); */
 
   /* background-image: url("https://cdn130.picsart.com/275952172023201.jpg?type=webp&to=min&r=640"); */
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5947fa5fccf210058d40c358/1547902021159-KRORROTG066S787CY57N/ke17ZwdGBToddI8pDm48kOujMOVN0PnDyQw8r-BQw9wUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdJocnQIIinSH3gKMVYBO3O6aay-5SMCMK1H3pEdK9CO7cO9ehlL6QM7dW_ym34oXSU/3d55bd9974f2d99c61ad802645445607--cellphone-wallpaper-white-wallpaper.jpg?format=2500w");
-  /* background-color: black; */
+  /* background-image: url("https://images.squarespace-cdn.com/content/v1/5947fa5fccf210058d40c358/1547902021159-KRORROTG066S787CY57N/ke17ZwdGBToddI8pDm48kOujMOVN0PnDyQw8r-BQw9wUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdJocnQIIinSH3gKMVYBO3O6aay-5SMCMK1H3pEdK9CO7cO9ehlL6QM7dW_ym34oXSU/3d55bd9974f2d99c61ad802645445607--cellphone-wallpaper-white-wallpaper.jpg?format=2500w"); */
+
+
+  /* background: linear-gradient(to bottom, #faf6f6 20%, #fcbfe4a3 90%); */
+
+  background: linear-gradient(to bottom, #fae4efba 0%, #ffcce6ba 99%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
