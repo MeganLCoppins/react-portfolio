@@ -14,7 +14,7 @@ function Navbar(){
     <nav>
         <ul className="list-unstyled">
         <li className="nav-item">
-            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to="/react-portfolio/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                 Home
             </Link>
         </li>
