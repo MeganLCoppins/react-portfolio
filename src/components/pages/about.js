@@ -17,9 +17,7 @@ function About (){
                 <img src="https://toppng.com/uploads/preview/mongo-db-design-mongodb-logo-mongodb-11562879783bwj2cknalk.png" alt="mongoDB"></img>
             </div>
             <div className="desc">
-                <p>Full Stack Web Developer with a passion for solving complex challenges. Recently graduated with a certificate from the University of Arizona Coding Boot Camp. Skilled in HTML, CSS, Bootstrap, JavaScript, React, UI/UX design, responsive web design, server-side development with express.js and node.js, MySQL, and MongoDB. Known for being a valued team member, meeting deadlines, and creative problem solving.
-                </p>
-                <p>Fueled by my life-long passion to improve the lives of others using my knowledge and skills, I am devoted to expanding my programming knowledge and skills, the powerful tools that I use to transform an idea into reality.  I am excited to utilize my skills at a company where I am able to continue learning and growing as a web developer. My knowledge, evolving skill set, and passion for creating meaningful and responsive web applications makes me a great addition to a quality driven team.
+                <p>Full Stack Web Developer with a passion for solving complex challenges. Recently graduated with a certificate from the University of Arizona Coding Boot Camp. Skilled in HTML, CSS, Bootstrap, JavaScript, UI/UX design, responsive web design, server-side development with express.js and node.js, and MySQL. Recently, as a member of a four person team, contributed to developing a full-stack application with a sign-up and login system that allows registered users to view and submit quotes, and post comments on selected quotes. Known for being a valued team member, meeting deadlines, and creative problem solving. Fueled by my life-long passion to improve the lives of others using and transform ideas into a reality.
                 </p>
             </div>
         </div>
