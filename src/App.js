@@ -13,7 +13,6 @@ function App(){
   return (
   <Router>
     <Navbar />
-      <Route exact path="/react-portfolio/" component={Home}/>
       <Route exact path="/" component={Home}/>
         <div id="home" style={{paddingTop: "5%"}}>
         </div>
