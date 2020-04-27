@@ -24,10 +24,10 @@
     padding-top: 2%;
 }
 .form {
-    margin-bottom: 12%;
+    margin-bottom: 2%;
     margin-top: 0%;
     margin-right: 10%;
-    margin-left: 5%;
+    margin-left: 10%;
     padding: 3%;
     text-align: center;
     background-color: rgb(1, 106, 117);
@@ -37,7 +37,7 @@
     /* background-color: rgba(247, 124, 140, 0.926); */
     background-color: rgba(132, 221, 223, 0.837);
     margin-right: 10%;
-    margin-left: 5%;
-    margin-top: 2%;
+    margin-left: 10%;
+    margin-top: 5%;
     padding-bottom: 2%;
 }

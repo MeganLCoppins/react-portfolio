@@ -1,9 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/index";
-// import Navbar from "./components/navbar";
-// import Wrapper from "./components/Wrapper";
 import Home from "./components/pages/home";
 import About from "./components/pages/about";
 import Portfolio from "./components/pages/portfolio";
@@ -11,9 +8,8 @@ import Contact from "./components/pages/contact";
 
 function App(){
   return (
-  <Router>
+    <div>
     <Navbar />
-      <Route exact path="/" component={Home}/>
         <div id="home" style={{paddingTop: "5%"}}>
         </div>
       <Home />
@@ -26,7 +22,7 @@ function App(){
         <div id="contact" style={{paddingTop: "7%"}}>
         </div>
       <Contact />
-    </Router>
+      </div>
   )
 }
 
