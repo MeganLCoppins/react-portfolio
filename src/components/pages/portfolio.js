@@ -1,12 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "../style/portfolio.css";
 import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
-import Button from "react-bootstrap/Button";
-import Popover from "react-bootstrap/Popover";
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import projects from "../../projects.json";
 
@@ -14,6 +8,7 @@ function Portfolio(){
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
+    e.preventDefault();
     setIndex(selectedIndex);
   };
 

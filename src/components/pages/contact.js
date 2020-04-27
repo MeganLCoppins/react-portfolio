@@ -1,8 +1,5 @@
 import React from "react";
 import "../style/contact.css";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 
 function Contact() {
   return (
