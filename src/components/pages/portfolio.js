@@ -13,12 +13,7 @@ function Portfolio(){
   };
 
     return (
-      // <Container id="portfolio">
       <div className="portfolio">
-        {/* <Jumbotron fluid style={{backgroundColor: "rgba(199, 57, 100, 0.755)", paddingTop: "2%", paddingBottom: "3%"}}>
-        <Container> */}
-        {/* </Container>
-        </Jumbotron> */}
         <h1>My Work</h1>
       <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
       {projects.map((project) => (
@@ -38,33 +33,8 @@ function Portfolio(){
             </Card>
         </Carousel.Item>
       ))}
-      </Carousel>
-
-
-          {/* {projects.map((project) => (
-            <CardDeck style={{marginLeft: "0%", marginRight: "8%"}}>
-            <Card style={{textAlign: "center"}} border="light" className="cardBg">
-              <Card.Body>
-                <Card.Title style={{fontSize: "55px", paddingTop: "3%"}}>
-                  <h2><strong>{project.title}</strong></h2>
-                </Card.Title>
-              <Card.Body border="secondary">
-              <Card.Img variant="top" src={project.image} fluid style={{width: "80%", height: "80%"}}/>
-                <Card.Text>{project.description}</Card.Text>
-                  <Card.Link href={project.deployed} style={{ color: "white", fontSize: "25px"}}><strong>Deployed App</strong></Card.Link>
-                  <Card.Link href={project.github} style={{ color: "white", fontSize: "25px"}}><strong>GitHub</strong></Card.Link>
-                </Card.Body>
-              </Card.Body>
-            </Card>
-            </CardDeck>  */}
-
-                  
-                
-                
-
-                
+      </Carousel>   
     </div>
-    // {/* </Container> */}
     );
 }
 

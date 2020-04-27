@@ -21,12 +21,6 @@ function TopNav() {
         ></img>
       </div>
       <div>
-      {/* <Navbar.Brand
-        href="#home"
-        style={{ fontSize: "50px", color: "rgb(247, 50, 116)" }}
-      >
-        Megan Coppins
-      </Navbar.Brand> */}
       <NavDropdown title="Megan Coppins" id="collasible-nav-dropdown" className="dropdown">
         <NavDropdown.Item href="#home" style={{color: "rgb(247, 50, 116)", fontSize: "25px"}}>Home</NavDropdown.Item>
         <NavDropdown.Item href="#about" style={{color: "rgb(247, 50, 116)", fontSize: "25px"}}>About</NavDropdown.Item>

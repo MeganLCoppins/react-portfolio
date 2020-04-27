@@ -3,19 +3,12 @@ import "../style/about.css";
 
 function About (){
     return (
-    // <Container id="about">
         <div className="about">
-        {/* <Jumbotron fluid style={{backgroundColor: "rgba(199, 57, 100, 0.755)", paddingTop: "1%", paddingBottom: "1%"}}>
-        <Container>
-          <h1>About Me</h1>
-        </Container>
-        </Jumbotron> */}
         <h1>About Me</h1>
             <div className="aboutImg fluid">
                 <img className="imageOne" src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg" alt="html5"></img>
                 <img src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png" alt="css3"></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt="bootstrap"></img>
-                {/* <img src="https://bulma.io/images/bulma-banner.png" alt="bulma"></img> */}
                 <img src="https://i.ya-webdesign.com/images/vector-javascript-14.png" alt="js"></img>
                 <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="node.js"></img>
                 <img src="https://www.fullstacklabs.co/img/referral/Technologies/tech_react.png" alt="react"></img>
@@ -27,7 +20,6 @@ function About (){
                 </p>
             </div>
             </div>
-        // </Container>
     )
 }
 

@@ -10,38 +10,24 @@ import Portfolio from "./components/pages/portfolio";
 import Contact from "./components/pages/contact";
 
 function App(){
-  // return (
-  //   <Router>
-  //       <Navbar />
-  //       <Wrapper>
-  //         <Route exact path="/react-portfolio/" component={Home} />
-  //         <Route exact path="/home" component={Home} />
-  //         <Route exact path="/about" component={About} />
-  //         <Route exact path="/portfolio" component={Portfolio} />
-  //         <Route exact path="/contact" component={Contact} />
-  //       </Wrapper>
-  //   </Router>
-  // )
-
   return (
   <Router>
-  <Navbar />
-    <Route exact path="/react-portfolio/" component={Home}/>
-    <div id="home" style={{paddingTop: "5%"}}>
-    </div>
-    <Home />
-    <div id="about" style={{paddingTop: "7%"}}>
-    </div>
-    <About />
-    <div id="portfolio" style={{paddingTop: "7%"}}>
-    </div>
-    <Portfolio />
-    <div id="contact" style={{paddingTop: "7%"}}>
-
-    </div>
-    <Contact />
+    <Navbar />
+      <Route exact path="/react-portfolio/" component={Home}/>
+      <Route exact path="/" component={Home}/>
+        <div id="home" style={{paddingTop: "5%"}}>
+        </div>
+      <Home />
+        <div id="about" style={{paddingTop: "7%"}}>
+        </div>
+      <About />
+        <div id="portfolio" style={{paddingTop: "7%"}}>
+        </div>
+      <Portfolio />
+        <div id="contact" style={{paddingTop: "7%"}}>
+        </div>
+      <Contact />
     </Router>
-
   )
 }
 
