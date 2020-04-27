@@ -1,26 +1,32 @@
 .portfolio h1{
-    /* font-family: 'Baloo Thambi 2', cursive; */
     font-family: 'Pacifico', cursive;
+    padding: 1%;
+    padding-bottom: 2%;
     font-size: 75px;
-    color: rgb(1, 106, 117);
+    color: rgb(252, 237, 239);
+    background-color: rgba(199, 57, 100, 0.755);
+    /* color: rgb(1, 106, 117); */
     /* color: black; */
-    margin-bottom: 3%;
 }
 .portfolio{
-    margin-left: 5%;
+    /* margin-bottom: 8%; */
+    height: 40%;
     color: white;
 }
 .portfolio h2{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
     /* color: rgb(1, 106, 117); */
-    color: rgb(250, 229, 229);
+    /* color: rgb(250, 229, 229); */
+    color: white;
 }
 .projectCard {
     margin-right: 8%;
-    margin-bottom: 4%;
+    /* margin-bottom: 4%; */
+    margin-left: 5%;
 }
 .cardBg {
     /* background-color: rgb(253, 153, 174); */
-    background-color: rgb(1, 106, 117);
+    background-color: rgb(102, 142, 147);
+    /* background-color: rgb(1, 106, 117); */
 }

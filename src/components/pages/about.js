@@ -1,10 +1,18 @@
 import React from "react";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Container from "react-bootstrap/Container";
 import "../style/about.css";
 
 function About (){
     return (
+    // <Container id="about">
         <div className="about">
-            <h1>About Me</h1>
+        {/* <Jumbotron fluid style={{backgroundColor: "rgba(199, 57, 100, 0.755)", paddingTop: "1%", paddingBottom: "1%"}}>
+        <Container>
+          <h1>About Me</h1>
+        </Container>
+        </Jumbotron> */}
+        <h1>About Me</h1>
             <div className="aboutImg fluid">
                 <img className="imageOne" src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg" alt="html5"></img>
                 <img src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png" alt="css3"></img>
@@ -17,10 +25,11 @@ function About (){
                 <img src="https://toppng.com/uploads/preview/mongo-db-design-mongodb-logo-mongodb-11562879783bwj2cknalk.png" alt="mongoDB"></img>
             </div>
             <div className="desc">
-                <p>Full Stack Web Developer with a passion for solving complex challenges. Recently graduated with a certificate from the University of Arizona Coding Boot Camp. Skilled in HTML, CSS, Bootstrap, JavaScript, UI/UX design, responsive web design, server-side development with express.js and node.js, and MySQL. Recently, as a member of a four person team, contributed to developing a full-stack application with a sign-up and login system that allows registered users to view and submit quotes, and post comments on selected quotes. Known for being a valued team member, meeting deadlines, and creative problem solving. Fueled by my life-long passion to improve the lives of others using and transform ideas into a reality.
+                <p>Full Stack Web Developer with a passion for solving complex challenges. Recently graduated with a certificate from the University of Arizona Coding Boot Camp. Skilled in HTML, CSS, Bootstrap, JavaScript, UI/UX design, responsive web design, server-side development with express.js and node.js, and MySQL. Known for being a valued team member, meeting deadlines, and creative problem solving. Fueled by my life-long passion to improve the lives of others using and transform ideas into a reality.
                 </p>
             </div>
-        </div>
+            </div>
+        // </Container>
     )
 }
 

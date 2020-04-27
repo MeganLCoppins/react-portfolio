@@ -1,0 +1,36 @@
+
+.navLinks {
+    text-align: center;
+    margin-top: 5%;
+    /* background-color: rgba(255, 255, 255, 0.693); */
+    color: rgb(1, 106, 117);
+    font-size: 30px;
+}
+
+.navLinks:hover {
+    color: rgb(247, 50, 116);
+}
+
+.iconLinks img {
+    width: 35px;
+    height: 35px;
+    margin-top: 5%;
+    margin-bottom: 55%;
+}
+
+.iconLinks {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+    /* position: sticky; */
+}
+
+.myPhoto img{
+    border-radius: 50%;
+    margin-left: 4%;
+    display: flex;
+}
+
+@media only screen and (min-width: 1350px){
+
+}

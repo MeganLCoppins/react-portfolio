@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Weather Dashboard",
-        "description": "A simple weather application that allows you to search for a city, view the current five-day forecast of your searched city, and view your search history to give the user easy access to past searches.",
+        "description": "A weather application that allows you to search for a city, view the current five-day forecast of your searched city, and view your search history to give the user easy access to past searches.",
         "deployed": "https://meganlcoppins.github.io/Weather-Dashboard/",
         "github": "https://github.com/MeganLCoppins/Weather-Dashboard",
         "image": "https://raw.githubusercontent.com/MeganLCoppins/Weather-Dashboard/master/assets/images/Screen%20Shot%202020-02-23%20at%205.10.38%20PM.png"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Strategy Scope",
-        "description": "A MERN project management application designed to combine a communication tool with a Kanban tool. This gives teams access to a one stop shop for their project needs to increase the teams efficency.",
+        "description": "A MERN project management application that combines a communication tool with a Kanban tool. This gives teams access to a one stop shop for their project needs to increase the teams efficency.",
         "deployed": "http://strategy-scope.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/miniature-disco",
         "image": "https://github.com/MeganLCoppins/miniature-disco/blob/master/images/kanban.png?raw=true"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Budget Tracker",
-        "description": "This is a PWA that was created to allow user's to track their budget. Users are able to add expenses and deposits to their budget with or without an internet connection.",
+        "description": "A PWA created to allow user's to track their budget. Users are able to add expenses and deposits to their budget with or without an internet connection.",
         "deployed": "https://pumpkin-pie-14585.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/budget-tracker",
         "image": "https://github.com/MeganLCoppins/budget-tracker/raw/master/assets/budget_tracker.png"

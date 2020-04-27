@@ -1,17 +1,24 @@
 .about h1{
-    margin-top: 2%;
-    padding-bottom: 3%;
     font-size: 75px;
-    /* color: black; */
-    color: rgb(1, 106, 117);
+    color: rgb(252, 237, 239);
+    background-color: rgba(199, 57, 100, 0.755);
+    /* margin-top: -20%; */
+    /* color: rgb(247, 50, 116); */
+    /* color: rgba(140, 132, 164, 0.899); */
+    /* color: rgb(1, 106, 117); */
 }
+/* #about {
+    margin-top: 20%;
+} */
 .about {
-    margin-left: 5%;
+    /* margin-left: 5%; */
     padding-bottom: 4%;
+    height: 40%;
 }
 .aboutImg {
+    margin-left: 5%;
     margin-top: 5%;
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
 }
 .aboutImg img {
     width: 55px;
@@ -26,13 +33,14 @@
     height: 80px;
 }
 .desc{
-    /* color:white; */
-    /* background-color: teal; */
-    /* padding: 3%; */
-    padding-bottom: 8%;
+    /* padding-bottom: 8%; */
     margin-right: 8%;
-    margin-top: 2%;
-    color: black;
+    margin-left: 5%;
+    line-height: 2.0;
+    font-weight: bold;
+    /* color: black; */
+    color: rgb(247, 50, 116);
+    /* color: rgba(140, 132, 164, 0.899); */
 }
 p {
     text-align: left;

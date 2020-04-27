@@ -1,11 +1,18 @@
 import React from "react";
 import "../style/contact.css";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 
 function Contact() {
   return (
+    // <Container id="contact">
     <div className="contact">
-      <h1>Lets Get In Touch!</h1>
+        {/* <Jumbotron fluid style={{backgroundColor: "rgba(199, 57, 100, 0.755)", paddingTop: "2%", paddingBottom: "3%"}}>
+        <Container>
+        </Container>
+        </Jumbotron> */}
+          <h1>Let's Get In Touch!</h1>
       <div className="backgroundImg">
         <a href="https://github.com/MeganLCoppins" target="_blank" rel="noopener noreferrer"> <img fluid src="https://pngimg.com/uploads/github/github_PNG83.png" alt="github"></img></a>
         <a href="https://linkedin.com/in/meganlcoppins" target="_blank" rel="noopener noreferrer"> <img fluid src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_black-512.png" alt="linkedin"></img></a>
@@ -26,6 +33,7 @@ function Contact() {
       </Form> */}
       </div>
     </div>
+    // </Container>
   );
 }
 

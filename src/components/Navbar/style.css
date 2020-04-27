@@ -1,95 +1,18 @@
-body {
-    /* font-family: "Lato", sans-serif; */
-    font-family: 'Pacifico', cursive;
-  }
-  h3 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 45px;
-    margin-bottom: 6%;
-    color: rgb(1, 106, 117);
-  }
-  .sidenav {
-    height: 100%;
-    width: 25%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    /* background-image: url("https://img.freepik.com/free-photo/multicolored-paper-background_23-2148182446.jpg?size=626&ext=jpg"); */
-    /* ABSTRACT */
-    /* background-image: url("https://i.pinimg.com/736x/a9/6f/17/a96f177c066ae8c5102cc77079466230.jpg"); */
-    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/71/15/abstract-irregular-polygon-background-pastel-vector-16267115.jpg");
-
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-
-  .icons img{
-      width: 35px;
-      height: 35px;
-      margin-left: 64px;
-      margin-top: 24%;
-      margin-bottom: 0;
-      /* display: block; */
-  }
-
-li {
-    padding-top: 2%;
-    font-size: 25px;
-    text-align: center;
-    display: block;
-
-  }
-nav {
-  background-color: rgb(248, 230, 230);
-  opacity: .8;
-  margin-top: 6%;
-  /* padding-top: 2%; */
-  padding-bottom: 2%;
+.myPhoto img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }
-
-  li a {
-    /* color: rgb(247, 50, 116); */
-    color: rgb(1, 106, 117);
-    /* width: 120px;
-    margin-left: 35%; */
-    /* color: #4b4b4c; */
-    /* font-weight: bold; */
-  }
-  
-  .sidenav a:hover {
-    /* color: black; */
-    /* color: rgb(1, 106, 117); */
-    color: rgb(247, 50, 116);
-  }
-
-  /* nav {
-    border-top: 6px #4B4B4C solid;
-    border-bottom: 6px #4B4B4C solid;
-    margin-top: 4%;
-    background-color: pink;
-  } */
-  
-  .main {
-    margin-left: 160px;
-    font-size: 28px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-  .circlePic img {
-    border-radius: 50%;
-    margin-left: 23%;
-    margin-bottom: 1%;
-  }
-
-  @media screen and (max-width: 1157px){
-      img {margin-left: 0%;
-            width: 100%;}
-      .circlePic img {margin-left: 0;}
-      .icons img{display: block;}
-  }
+a{
+  color: rgb(247, 50, 116);
+  font-size: 45px;
+  text-align: center;
+}
+a:hover{
+  color: rgb(141, 90, 141);
+}
+img {
+  width: 30px;
+  height: 30px;
+}
