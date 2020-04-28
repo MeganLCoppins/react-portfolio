@@ -17,12 +17,11 @@ function TopNav() {
     >
       <div className="myPhoto" >
         <img
-          className="img-fluid"
           src="https://media-exp1.licdn.com/dms/image/C4D03AQFdx-nOeBMxtg/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=1Xj4vKrYG9yo4V0PEp3G142F7t7HhODMdjTXaKwZO_U"
           alt="Me"
         ></img>
       </div>
-      {/* <div> */}
+      <div>
         <NavDropdown
           title="Megan Coppins"
           id="collasible-nav-dropdown"
@@ -83,7 +82,7 @@ function TopNav() {
             ></img>
           </NavDropdown.Item>
         </NavDropdown>
-      {/* </div> */}
+      </div>
       <Navbar.Toggle />
     </Navbar>
   );

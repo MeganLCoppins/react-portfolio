@@ -85,7 +85,7 @@ p {
     margin-bottom: 5%;
     font-weight: bold;
 }
-@media screen and (max-width: 640px){
+@media only screen and (max-width: 640px){
     .about {
         width: 100%;
     }
@@ -110,13 +110,13 @@ p {
     .boxes{
         /* width: 89%; */
         margin-left: 9%;
+        height: 100%;
     }
     .skills{
-        height: fit-content;
+        height: 500px;
     }
     .experience{
-        height: fit-content;
-        padding-bottom: 43%;
+        height: 500px;
     }
     p {margin-left: 1%;
     padding-left: 5%;
