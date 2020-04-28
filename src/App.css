@@ -10,40 +10,48 @@
 #contact {
     padding-top: 5%;
 }
-@media screen and (max-width: 650px) {
-    /* .cont { */
-        /* width: 350px; */
-        /* overflow: hidden; */
-    /* } */
+
+@media only screen and (max-width: 414px){
     #about{
-        padding-top: 35%;
+        padding-top: 28%;
     }
     #portfolio{
-        padding-top: 35%;
+        padding-top: 28%;
     }
     #contact{
-        padding-top: 35%;
+        padding-top: 28%;
     }
 }
-@media screen and (max-width: 320px){
+@media only screen and (max-width: 375px) {
+    #about{
+        padding-top: 34%;
+    }
+    #portfolio{
+        padding-top: 34%;
+    }
+    #contact{
+        padding-top: 34%;
+    }
+}
+@media only screen and (max-width: 360px){
     #about{
         padding-top: 30%;
     }
     #portfolio{
         padding-top: 30%;
     }
-    #contact{
+    #contact {
         padding-top: 30%;
     }
 }
-@media screen and (max-width: 414px){
+@media only screen and (max-width: 320px){
     #about{
-        padding-top: 28%;
+        padding-top: 30%;
     }
     #portfolio{
-        padding-top: 28%;
+        padding-top: 30%;
     }
     #contact{
-        padding-top: 28%;
+        padding-top: 30%;
     }
 }

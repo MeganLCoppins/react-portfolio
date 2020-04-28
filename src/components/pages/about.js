@@ -19,7 +19,7 @@ function About() {
 
         <div className="aboutImg ">
           <img
-            className="img-fluid"
+            className="img-fluid imgOne"
             src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg"
             alt="html5"
           ></img>
@@ -64,7 +64,7 @@ function About() {
         <div className="skills">
           <h5>Skilled In:</h5>
           <p>
-            HTML, CSS, JavaScript/jQuery, UI/UX Design, Responsive Web Design,
+            HTML, CSS, JavaScript, jQuery, UI/UX Design, Responsive Web Design,
             Bootstrap, React, Node.js, Express, MySQL, MongoDB, MERN Stack, Git,
             Heroku
           </p>

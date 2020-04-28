@@ -49,6 +49,8 @@
     }
     .contact h1{
         font-size: 42px;
+        padding-left: 40%;
+        padding-right: 40%;
     }
     .form {
         width: 90%;
@@ -64,5 +66,10 @@
         width: 90%;
         margin-left: 5%;
         margin-top: 25%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .contact{
+        margin-bottom: 100%;
     }
 }

@@ -85,7 +85,8 @@ p {
     margin-bottom: 5%;
     font-weight: bold;
 }
-@media only screen and (max-width: 640px){
+
+@media screen and (max-width: 640px){
     .about {
         width: 100%;
     }
@@ -94,7 +95,8 @@ p {
         font-size: 45px;
     }
     .aboutImg img {
-        margin-left: 0%;
+        width: 60px;
+        margin-left: 0;
     }
     .aboutImg {
         margin-top: 3%;
@@ -113,10 +115,10 @@ p {
         height: 100%;
     }
     .skills{
-        height: 500px;
+        height: 525px;
     }
     .experience{
-        height: 500px;
+        height: 525px;
     }
     p {margin-left: 1%;
     padding-left: 5%;
