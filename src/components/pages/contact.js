@@ -11,7 +11,7 @@ function Contact() {
         <a href="https://docs.google.com/document/d/1WMkMextzoaoaByTTQHhFJt4iTbdCAmappNUgLW3fmDA/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> <img className="fluid" src="https://image.flaticon.com/icons/png/512/14/14573.png" alt="resume"></img></a>
       </div>
       <div className="form" >
-        <h3>MeganLCoppins@gmail.com</h3>
+        <a href="mailto:meganlcoppins@gmail.com?subject=Requesting%20 Info"><h3>MeganLCoppins@gmail.com</h3></a>
       </div>
     </div>
   );
