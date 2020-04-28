@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar/index";
 import Home from "./components/pages/home";
@@ -8,18 +9,18 @@ import Contact from "./components/pages/contact";
 
 function App(){
   return (
-    <div>
+    <div className="cont">
     <Navbar />
-        <div id="home" style={{paddingTop: "5%"}}>
+        <div id="home">
         </div>
       <Home />
-        <div id="about" style={{paddingTop: "7%"}}>
+        <div id="about" >
         </div>
       <About />
-        <div id="portfolio" style={{paddingTop: "7%"}}>
+        <div id="portfolio">
         </div>
       <Portfolio />
-        <div id="contact" style={{paddingTop: "7%"}}>
+        <div id="contact">
         </div>
       <Contact />
       </div>

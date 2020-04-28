@@ -1,6 +1,5 @@
 .contact{
     color: black;
-    /* padding-bottom: 4%; */
     height: 40%;
 }
 .contact h1{
@@ -9,7 +8,7 @@
     padding: 1%;
     padding-bottom: 2%;
     /* color: #4b4b4c; */
-    color: rgb(248, 222, 226);
+    color: rgb(252, 237, 239);
     background-color: rgba(199, 57, 100, 0.755);
     /* color: rgb(1, 106, 117); */
 }
@@ -21,14 +20,16 @@
 }
 .form h3{
     color: white;
-    padding-top: 2%;
+    font-size: 40px;
+    /* padding-top: 2%; */
 }
 .form {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     margin-top: 0%;
     margin-right: 10%;
-    margin-left: 10%;
-    padding: 3%;
+    margin-left: 20%;
+    padding: 6%;
+    width: 60%;
     text-align: center;
     background-color: rgb(1, 106, 117);
     color: white;
@@ -37,7 +38,30 @@
     /* background-color: rgba(247, 124, 140, 0.926); */
     background-color: rgba(132, 221, 223, 0.837);
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
+    width: 60%;
+}
+@media screen and (max-width: 775px){
+    .contact {
+        margin-bottom: 90%;
+    }
+    .contact h1{
+        font-size: 42px;
+    }
+    .form {
+        width: 90%;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-bottom: 5%;
+    }
+    .form h3{
+        font-size: 25px;
+    }
+    .backgroundImg{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 25%;
+    }
 }

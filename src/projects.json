@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Weather Dashboard",
-        "description": "A weather application that allows you to search for a city, view the current five-day forecast of your searched city, and view your search history to give the user easy access to past searches.",
+        "description": "A weather application that allows you to search for a city, view the current five-day forecast of the searched city, and view your search history.",
         "deployed": "https://meganlcoppins.github.io/Weather-Dashboard/",
         "github": "https://github.com/MeganLCoppins/Weather-Dashboard",
         "image": "https://raw.githubusercontent.com/MeganLCoppins/Weather-Dashboard/master/assets/images/Screen%20Shot%202020-02-23%20at%205.10.38%20PM.png"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Work-Day-Scheduler",
-        "description": "A daily work calendar that allows the user to save their to-dos or events in specific time slots. As the day progresses the time slots change color to show whether the slot is in the past, present or future.",
+        "description": "A daily work calendar that allows the user to save their to-dos in specific time slots. As the day progresses the time slots change color to show if the slot is in the past, present or future.",
         "deployed": "https://meganlcoppins.github.io/Work-Day-Scheduler/",
         "github": "https://github.com/MeganLCoppins/Work-Day-Scheduler",
         "image": "https://raw.githubusercontent.com/MeganLCoppins/Work-Day-Scheduler/master/assets/images/Screen%20Shot%202020-02-23%20at%205.11.23%20PM.png"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Strategy Scope",
-        "description": "A MERN project management application that combines a communication tool with a Kanban tool. This gives teams access to a one stop shop for their project needs to increase the teams efficency.",
+        "description": "A MERN project management application that gives teams access to a one stop shop for their project needs to increase the teams efficency.",
         "deployed": "http://strategy-scope.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/miniature-disco",
         "image": "https://github.com/MeganLCoppins/miniature-disco/blob/master/images/kanban.png?raw=true"

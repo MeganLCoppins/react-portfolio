@@ -5,8 +5,8 @@ function Home() {
   return (
     <div className="home">
       <div>
-      <h1 className="left" fluid>Hello and Welcome!</h1>
-      <h1 className="emphasized" fluid>Full Stack Developer</h1>
+      <h1 className="left">Hello and Welcome!</h1>
+      <h1 className="emphasized">Full Stack Developer</h1>
       </div>
     </div>
   );

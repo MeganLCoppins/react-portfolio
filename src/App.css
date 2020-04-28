@@ -1,0 +1,27 @@
+#home {
+    padding-top: 5%;
+}
+#about {
+    padding-top: 5%;
+}
+#portfolio{
+    padding-top: 5%;
+}
+#contact {
+    padding-top: 5%;
+}
+@media screen and (max-width: 650px) {
+    /* .cont { */
+        /* width: 350px; */
+        /* overflow: hidden; */
+    /* } */
+    #about{
+        padding-top: 35%;
+    }
+    #portfolio{
+        padding-top: 35%;
+    }
+    #contact{
+        padding-top: 35%;
+    }
+}
