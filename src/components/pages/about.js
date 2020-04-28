@@ -19,42 +19,42 @@ function About() {
 
         <div className="aboutImg ">
           <img
-            className="imageOne fluid"
+            className="img-fluid"
             src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg"
             alt="html5"
           ></img>
           <img
-            className="fluid"
+            className="img-fluid"
             src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png"
             alt="css3"
           ></img>
           <img
-            className="fluid"
+            className="img-fluid"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
             alt="bootstrap"
           ></img>
           <img
-            className="fluid"
+            className="img-fluid"
             src="https://i.ya-webdesign.com/images/vector-javascript-14.png"
             alt="js"
           ></img>
           <img
-            className="fluid"
+            className="img-fluid"
             src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
             alt="node.js"
           ></img>
           <img
-            className="fluid"
+            className="img-fluid"
             src="https://www.fullstacklabs.co/img/referral/Technologies/tech_react.png"
             alt="react"
           ></img>
           <img
-            className="fluid"
+            className="img-fluid"
             src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-512.png"
             alt="MySQL"
           ></img>
           <img
-            className="fluid"
+            className="img-fluid"
             src="https://toppng.com/uploads/preview/mongo-db-design-mongodb-logo-mongodb-11562879783bwj2cknalk.png"
             alt="mongoDB"
           ></img>

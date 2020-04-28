@@ -95,30 +95,28 @@ p {
     }
     .aboutImg img {
         margin-left: 0%;
-        margin-right: 5%;
-        display: block;}
-    .aboutImg {float: left;
+    }
+    .aboutImg {
         margin-top: 3%;
-        padding-bottom: 2%;
+        padding: 0;
 }
     .desc {
-        width: 80%;
+        /* width: 80%; */
         margin-top: 10%;
         margin-left: 9%;
         padding-top: 2%;
-        padding-right: 2%;
-        height: 360px;
+        /* height: 360px; */
     }
     .boxes{
-        width: 89%;
+        /* width: 89%; */
         margin-left: 9%;
     }
     .skills{
-        width: 60%;
+        height: fit-content;
     }
     .experience{
-        width: 60%;
-        padding-right: 2%;
+        height: fit-content;
+        padding-bottom: 43%;
     }
     p {margin-left: 1%;
     padding-left: 5%;
