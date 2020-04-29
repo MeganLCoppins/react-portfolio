@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../style/portfolio.css";
+import weatherdashboard from "../../assets/weatherdashboard.png";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import projects from "../../projects.json";
