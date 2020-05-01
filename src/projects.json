@@ -13,7 +13,7 @@
         "description": "A daily work calendar that allows the user to save their to-dos in specific time slots. As the day progresses the time slots change color to show if the slot is in the past, present or future.",
         "deployed": "https://meganlcoppins.github.io/Work-Day-Scheduler/",
         "github": "https://github.com/MeganLCoppins/Work-Day-Scheduler",
-        "image": "https://raw.githubusercontent.com/MeganLCoppins/Work-Day-Scheduler/master/assets/images/Screen%20Shot%202020-02-23%20at%205.11.23%20PM.png"
+        "image": "https://github.com/MeganLCoppins/Work-Day-Scheduler/raw/master/assets/images/WorkDayScheduler.png"
     },
     {
         "id": 3,
