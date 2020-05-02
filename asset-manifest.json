@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.390b0b27.chunk.css",
+    "main.css": "/react-portfolio/static/css/main.66a1da02.chunk.css",
     "main.js": "/react-portfolio/static/js/main.58b59bf3.chunk.js",
     "main.js.map": "/react-portfolio/static/js/main.58b59bf3.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.8a7d631b.js",
@@ -9,10 +9,10 @@
     "static/js/2.6ca97605.chunk.js": "/react-portfolio/static/js/2.6ca97605.chunk.js",
     "static/js/2.6ca97605.chunk.js.map": "/react-portfolio/static/js/2.6ca97605.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.aa914c9238456c5a495159269dc69786.js": "/react-portfolio/precache-manifest.aa914c9238456c5a495159269dc69786.js",
+    "precache-manifest.c446edbb47bee85014847d2a15ff9eb1.js": "/react-portfolio/precache-manifest.c446edbb47bee85014847d2a15ff9eb1.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/react-portfolio/static/css/2.de424728.chunk.css.map",
-    "static/css/main.390b0b27.chunk.css.map": "/react-portfolio/static/css/main.390b0b27.chunk.css.map",
+    "static/css/main.66a1da02.chunk.css.map": "/react-portfolio/static/css/main.66a1da02.chunk.css.map",
     "static/js/2.6ca97605.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6ca97605.chunk.js.LICENSE.txt",
     "static/media/weatherdashboard.png": "/react-portfolio/static/media/weatherdashboard.5a58d62e.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.8a7d631b.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.6ca97605.chunk.js",
-    "static/css/main.390b0b27.chunk.css",
+    "static/css/main.66a1da02.chunk.css",
     "static/js/main.58b59bf3.chunk.js"
   ]
 }
