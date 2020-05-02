@@ -1,14 +1,14 @@
 #home {
-    padding-top: 5%;
+    padding-top: 6%;
 }
 #about {
-    padding-top: 5%;
+    padding-top: 6%;
 }
 #portfolio{
-    padding-top: 5%;
+    padding-top: 6%;
 }
 #contact {
-    padding-top: 5%;
+    padding-top: 6%;
 }
 
 @media only screen and (max-width: 414px){
@@ -20,17 +20,6 @@
     }
     #contact{
         padding-top: 28%;
-    }
-}
-@media only screen and (max-width: 375px) {
-    #about{
-        padding-top: 34%;
-    }
-    #portfolio{
-        padding-top: 34%;
-    }
-    #contact{
-        padding-top: 34%;
     }
 }
 @media only screen and (max-width: 360px){
@@ -46,12 +35,12 @@
 }
 @media only screen and (max-width: 320px){
     #about{
-        padding-top: 30%;
+        padding-top: 35%;
     }
     #portfolio{
-        padding-top: 30%;
+        padding-top: 35%;
     }
     #contact{
-        padding-top: 30%;
+        padding-top: 35%;
     }
 }
