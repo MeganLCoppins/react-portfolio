@@ -71,7 +71,7 @@ function TopNav() {
             ></img>
           </NavDropdown.Item>
           <NavDropdown.Item style={{ display: "flex", paddingLeft: "40%" }}
-            href="https://docs.google.com/document/d/1WMkMextzoaoaByTTQHhFJt4iTbdCAmappNUgLW3fmDA/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1lhn3SBdrLm5w7USTxYUEZpjXkHWvaa75mPgOB6cZwNY/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer">
             <img
