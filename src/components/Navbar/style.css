@@ -1,5 +1,6 @@
 .myPhoto img {
   border-radius: 50%;
+  border: 2px solid black;
   width: 120px;
   height: 120px;
   margin-right: 10px;
@@ -7,12 +8,12 @@
 }
 
 a {
-  color: rgb(247, 50, 116);
+  color: black;
   font-size: 45px;
   text-align: center;
 }
 a:hover {
-  color: rgb(141, 90, 141);
+  color: rgb(83, 102, 104);
 }
 img {
   width: 30px;
@@ -23,7 +24,7 @@ img {
     font-size: 24px;
     text-align: left;
   }
-  .myPhoto img{
+  .myPhoto img {
     width: 105px;
     height: 105px;
     margin-right: 0;

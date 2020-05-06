@@ -1,47 +1,40 @@
 .portfolio h1{
     font-family: 'Pacifico', cursive;
-    padding: 1%;
-    padding-bottom: 2%;
-    font-size: 75px;
-    color: rgb(252, 237, 239);
-    background-color: rgba(199, 57, 100, 0.755);
-    /* color: rgb(1, 106, 117); */
-    /* color: black; */
+    padding-bottom: 1%;
+    font-size: 80px;
+    color: black;
+    margin-left: 10%;
 }
 .portfolio{
-    /* margin-bottom: 8%; */
     height: 40%;
     color: white;
 }
 .portfolio h2{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
-    /* color: rgb(1, 106, 117); */
-    /* color: rgb(250, 229, 229); */
     color: white;
 }
 .projectCard {
     margin-right: 8%;
-    /* margin-bottom: 4%; */
     margin-left: 5%;
 }
 .cardBg {
-    /* background-color:#6d4d5bba; */
     background-color: rgb(79, 67, 100);
-    /* background-color: rgba(140, 132, 164, 0.899); */
 }
-@media screen and (max-width: 775px){
+.caroBody {
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 10px black;
+    background-color: lavender;
+    padding-bottom: 4%;
+}
+@media screen and (max-width: 640px){
     .links {
-        padding-left: 6px;
         margin-bottom: 3%;
     }
     .caroBody {
-        width: 105%;
         margin-left: 0%;
-        margin-top: 20%;
     }
     .cardBody {
-        /* width: 105%; */
         padding: 0;
         margin-left: 0%;
         margin-bottom: 10%;
@@ -52,5 +45,6 @@
     }
     .portfolio h1{ 
         font-size: 45px;
+        margin-left: 0;
     }
 }

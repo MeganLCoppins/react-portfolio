@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../style/portfolio.css";
-import weatherdashboard from "../../assets/weatherdashboard.png";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import projects from "../../projects.json";
@@ -25,8 +24,9 @@ function Portfolio(){
                   <h2><strong>{project.title}</strong></h2>
                 </Card.Title>
                 <div className="links">
-                  <Card.Link href={project.deployed} style={{ color: "white", fontSize: "25px"}}><strong>Deployed</strong></Card.Link>
-                  <Card.Link href={project.github} style={{ color: "white", fontSize: "25px"}}><strong>GitHub</strong></Card.Link>
+                  <Card.Link href={project.deployed} style={{ color: "white", fontSize: "23px"}}><strong>Deployed</strong></Card.Link>
+                  <Card.Link href={project.github} target="_blank"
+            rel="noopener noreferrer" style={{ color: "white", fontSize: "23px"}}><strong>GitHub</strong></Card.Link>
                 </div>
               <Card.Img id="portImg" variant="top" src={project.image} style={{width: "65%", height: "55%"}}/>
                 <Card.Text style={{width: "82%", textAlign: "center", marginLeft: "8%", marginTop: "0%", marginBottom: "4%"}}>{project.description}</Card.Text>

@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Flavor Savor",
-        "description": "A recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes, a link to the recipe, and a picture of the meal.",
+        "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes, a link to the recipe, and a picture of the meal.",
         "deployed": "https://dorntrevor7.github.io/Flavor-Savor/",
         "github": "https://github.com/MeganLCoppins/Flavor-Savor",
         "image": "https://github.com/MeganLCoppins/Flavor-Savor/raw/master/assets/imgs/flavor-savor-sc.png"

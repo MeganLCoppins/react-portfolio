@@ -12,7 +12,6 @@ function TopNav() {
         backgroundImage:
           "url(https://cdn1.vectorstock.com/i/1000x1000/71/15/abstract-irregular-polygon-background-pastel-vector-16267115.jpg)",
         fontFamily: "'Pacifico', cursive",
-        height: "18%",
       }}
     >
       <div className="myPhoto" >
@@ -29,25 +28,25 @@ function TopNav() {
         >
           <NavDropdown.Item
             href="#home"
-            style={{ color: "rgb(247, 50, 116)", fontSize: "25px" }}
+            style={{ color: "black", fontSize: "25px" }}
           >
             Home
           </NavDropdown.Item>
           <NavDropdown.Item
             href="#about"
-            style={{ color: "rgb(247, 50, 116)", fontSize: "25px" }}
+            style={{ color: "black", fontSize: "25px" }}
           >
             About
           </NavDropdown.Item>
           <NavDropdown.Item
             href="#portfolio"
-            style={{ color: "rgb(247, 50, 116)", fontSize: "25px" }}
+            style={{ color: "black", fontSize: "25px" }}
           >
             Portfolio
           </NavDropdown.Item>
           <NavDropdown.Item
             href="#contact"
-            style={{ color: "rgb(247, 50, 116)", fontSize: "25px" }}
+            style={{ color: "black", fontSize: "25px" }}
           >
             Contact
           </NavDropdown.Item>

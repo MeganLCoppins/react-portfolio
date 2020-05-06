@@ -4,7 +4,7 @@ import "../style/about.css";
 function About() {
   return (
     <div className="about wrap">
-      <h1>About Me</h1>
+    <h1>About Me</h1>
 
       <div className="desc">
         <p>
@@ -59,7 +59,7 @@ function About() {
             alt="mongoDB"
           ></img>
         </div>
-      </div>
+
       <div className="boxes">
         <div className="skills">
           <h5>Skilled In:</h5>
@@ -73,6 +73,7 @@ function About() {
           <h5>Experience With:</h5>
           <p>Bulma, Handlebars, Glide.js, Passport, Auth0, Socket.io</p>
         </div>
+      </div>
       </div>
       <div style={{ clear: "left" }}></div>
     </div>

@@ -1,73 +1,69 @@
-.contact{
-    color: black;
-    height: 40%;
+.contact {
+  color: black;
+  height: 40%;
 }
-.contact h1{
-    font-family: 'Pacifico', cursive;
-    font-size: 75px;
-    padding: 1%;
-    padding-bottom: 2%;
-    /* color: #4b4b4c; */
-    color: rgb(252, 237, 239);
-    background-color: rgba(199, 57, 100, 0.755);
-    /* color: rgb(1, 106, 117); */
+.contact h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  margin-left: 10%;
+  padding-bottom: 2%;
+  color: black;
 }
 .contact img {
-    width: 10%;
-    height: 10%;
-    margin-left: 18%;
-    margin-top: 5%;
+  width: 10%;
+  height: 10%;
+  margin-left: 18%;
+  margin-top: 5%;
+  padding-bottom: 2%;
 }
-.form h3{
-    color: white;
-    font-size: 40px;
-    /* padding-top: 2%; */
+.form h3 {
+  color: white;
+  font-size: 40px;
 }
 .form {
+  margin-top: 0%;
+  padding: 8%;
+  padding-bottom: 10%;
+  text-align: center;
+  background-color: rgb(1, 106, 117);
+  color: white;
+}
+.backgroundImg {
+  background-color: rgba(132, 221, 223, 0.837);
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: solid 10px black;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 1024px){
+  .contact{
+    margin-bottom: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contact {
+    margin-bottom: 90%;
+  }
+  .contact h1 {
+    font-size: 42px;
+    margin-left: 0;
     margin-bottom: 5%;
-    margin-top: 0%;
-    margin-right: 10%;
-    margin-left: 20%;
-    padding: 6%;
-    width: 60%;
+  }
+  .form {
+    padding-left: 2%;
+  }
+  .form h3 {
+    font-size: 20px;
     text-align: center;
-    background-color: rgb(1, 106, 117);
-    color: white;
+  }
+  .backgroundImg {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
-.backgroundImg{
-    /* background-color: rgba(247, 124, 140, 0.926); */
-    background-color: rgba(132, 221, 223, 0.837);
-    margin-right: 10%;
-    margin-left: 20%;
-    margin-top: 5%;
-    padding-bottom: 4%;
-    width: 60%;
-}
-@media screen and (max-width: 775px){
-    .contact {
-        margin-bottom: 90%;
-    }
-    .contact h1{
-        font-size: 42px;
-    }
-    .form {
-        width: 90%;
-        margin-left: 5%;
-        padding-left: 2%;
-        margin-bottom: 5%;
-    }
-    .form h3{
-        font-size: 20px;
-        text-align: center;
-    }
-    .backgroundImg{
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 25%;
-    }
-}
-@media only screen and (max-width: 375px){
-    .contact{
-        margin-bottom: 100%;
-    }
+@media only screen and (max-width: 375px) {
+  .contact {
+    margin-bottom: 110%;
+  }
 }
