@@ -6,11 +6,23 @@ import projects from "../../projects.json";
 
 function Portfolio(){
   const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState("hide");
+  const [arrow, setArrow] = useState("+");
 
   const handleSelect = (selectedIndex, e) => {
     e.preventDefault();
     setIndex(selectedIndex);
   };
+
+  const getDesc = () => {
+    if(visible === "hide"){
+      setVisible("show");
+      setArrow("-");
+    } else {
+      setVisible("hide");
+      setArrow("+");
+    }
+  }
 
     return (
       <div className="portfolio">
@@ -29,7 +41,18 @@ function Portfolio(){
             rel="noopener noreferrer" style={{ color: "white", fontSize: "23px"}}><strong>GitHub</strong></Card.Link>
                 </div>
               <Card.Img id="portImg" variant="top" src={project.image} style={{width: "65%", height: "55%"}}/>
-                <Card.Text style={{width: "82%", textAlign: "center", marginLeft: "8%", marginTop: "0%", marginBottom: "4%"}}>{project.description}</Card.Text>
+              <div>
+              <button
+              onClick = {() => getDesc()}
+              style={{backgroundColor: "lavender", marginTop: "1%", borderRadius: "50%"}}
+              >
+                <h3>{arrow}</h3>
+              </button>
+              </div>
+              <div className={visible}>
+                <Card.Text style={{width: "82%", textAlign: "center", marginLeft: "8%", marginTop: "0%"}}>{project.description}</Card.Text>
+                <Card.Text style={{width: "82%", textAlign: "center", marginLeft: "8%", marginTop: "1%", marginBottom: "4%"}}>{project.technologies}</Card.Text>
+              </div>
               </Card.Body>
             </Card>
         </Carousel.Item>

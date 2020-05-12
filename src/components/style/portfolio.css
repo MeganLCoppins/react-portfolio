@@ -1,7 +1,10 @@
+.hide {
+    display: none;
+}
 .portfolio h1{
     font-family: 'Pacifico', cursive;
     padding-bottom: 1%;
-    font-size: 80px;
+    font-size: 75px;
     color: black;
     margin-left: 10%;
 }

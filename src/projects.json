@@ -3,6 +3,7 @@
         "id": 1,
         "title": "Weather Dashboard",
         "description": "A weather application that allows you to search for a city, view the current five-day forecast of the searched city, and view your search history.",
+        "technologies": "HTML, CSS, Bootstrap, JavaScript, Local Storage, OpenWeather API",
         "deployed": "https://meganlcoppins.github.io/Weather-Dashboard/",
         "github": "https://github.com/MeganLCoppins/Weather-Dashboard",
         "image": "https://github.com/MeganLCoppins/Weather-Dashboard/blob/master/assets/images/weatherdashboard.png?raw=true"
@@ -11,14 +12,16 @@
         "id": 2,
         "title": "Work-Day-Scheduler",
         "description": "A daily work calendar that allows the user to save their to-dos in specific time slots. As the day progresses the time slots change color to show if the slot is in the past, present or future.",
+        "technologies": "HTML, CSS, Bootstrap, JavaScript, Local Storage, Moment.js",
         "deployed": "https://meganlcoppins.github.io/Work-Day-Scheduler/",
         "github": "https://github.com/MeganLCoppins/Work-Day-Scheduler",
-        "image": "https://github.com/MeganLCoppins/Work-Day-Scheduler/raw/master/assets/images/WorkDayScheduler.png"
+        "image": "https://github.com/MeganLCoppins/Work-Day-Scheduler/blob/master/assets/images/WorkDayScheduler.png?raw=true"
     },
     {
         "id": 3,
         "title": "Note-Taker",
         "description": "A note-taking application for users that need to keep track of a lot of information. The application allows the user to take notes and have written information available when needed.",
+        "technologies": "HTML, CSS, Bootstrap, JavaScript, Express, Node.js, UUID",
         "deployed": "https://mighty-shelf-20145.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/note-taker",
         "image": "https://github.com/MeganLCoppins/note-taker/raw/master/public/assets/images/NoteTaker.png"
@@ -27,6 +30,7 @@
         "id": 4,
         "title": "Strategy Scope",
         "description": "A MERN project management application that gives teams access to a one stop shop for their project needs to increase the teams efficency.",
+        "technologies": "React.js, JavaScript, React Bootstrap, Node.js, Express, Axios, MongoDB, React Calendar, React Beautiful Drag n Drop, Socket.io, AuthO",
         "deployed": "http://strategy-scope.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/miniature-disco",
         "image": "https://github.com/MeganLCoppins/miniature-disco/blob/master/images/kanban.png?raw=true"
@@ -35,6 +39,7 @@
         "id": 5,
         "title": "Budget Tracker",
         "description": "A PWA created to allow user's to track their budget. Users are able to add expenses and deposits to their budget with or without an internet connection.",
+        "technologies": "HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, IndexedDB, Morgan, Compression, Lite-Server",
         "deployed": "https://pumpkin-pie-14585.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/budget-tracker",
         "image": "https://github.com/MeganLCoppins/budget-tracker/raw/master/assets/budget_tracker.png"
@@ -43,6 +48,7 @@
         "id": 6,
         "title": "Flavor Savor",
         "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes, a link to the recipe, and a picture of the meal.",
+        "technologies": "HTML, CSS, Bulma, Javascript, Glide.js, Edamam API, Giphys API",
         "deployed": "https://dorntrevor7.github.io/Flavor-Savor/",
         "github": "https://github.com/MeganLCoppins/Flavor-Savor",
         "image": "https://github.com/MeganLCoppins/Flavor-Savor/raw/master/assets/imgs/flavor-savor-sc.png"

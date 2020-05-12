@@ -1,4 +1,12 @@
 import React from "react";
+import html from "../../assets/html_icon.png";
+import css from "../../assets/css_icon.png";
+import bootstrap from "../../assets/bootstrap_icon.png";
+import javascript from "../../assets/javascript-icon.png";
+import mysql from "../../assets/mysql_icon.png";
+import mongodb from "../../assets/mongodb_icon.png";
+import react from "../../assets/react_icon.webp";
+import node from "../../assets/node.jpg";
 import "../style/about.css";
 
 function About() {
@@ -20,42 +28,50 @@ function About() {
         <div className="aboutImg ">
           <img
             className="img-fluid imgOne"
-            src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg"
+            src={html}
+            // src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg"
             alt="html5"
           ></img>
           <img
             className="img-fluid"
-            src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png"
+            src={css}
+            // src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png"
             alt="css3"
           ></img>
           <img
             className="img-fluid"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+            src={bootstrap}
+            // src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
             alt="bootstrap"
           ></img>
           <img
             className="img-fluid"
-            src="https://i.ya-webdesign.com/images/vector-javascript-14.png"
+            src={javascript}
+            // src="https://i.ya-webdesign.com/images/vector-javascript-14.png"
             alt="js"
           ></img>
           <img
             className="img-fluid"
-            src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+            src={node}
+            // src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
             alt="node.js"
           ></img>
           <img
             className="img-fluid"
-            src="https://www.fullstacklabs.co/img/referral/Technologies/tech_react.png"
+            src={react}
+            // src="https://www.fullstacklabs.co/img/referral/Technologies/tech_react.png"
             alt="react"
           ></img>
           <img
             className="img-fluid"
-            src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-512.png"
+            src={mysql}
+            // src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-512.png"
             alt="MySQL"
           ></img>
           <img
             className="img-fluid"
-            src="https://toppng.com/uploads/preview/mongo-db-design-mongodb-logo-mongodb-11562879783bwj2cknalk.png"
+            src={mongodb}
+            // src="https://toppng.com/uploads/preview/mongo-db-design-mongodb-logo-mongodb-11562879783bwj2cknalk.png"
             alt="mongoDB"
           ></img>
         </div>

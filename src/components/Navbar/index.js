@@ -1,6 +1,11 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import myPhoto from "../../assets/myphoto.png";
+import "../../assets/nav_background.jpg";
+import resume from "../../assets/portfolio_icon.png";
+import github from "../../assets/github_icon.png";
+import linkedin from "../../assets/linkedin_icon.webp";
 import "./style.css";
 
 function TopNav() {
@@ -16,7 +21,7 @@ function TopNav() {
     >
       <div className="myPhoto" >
         <img
-          src="https://media-exp1.licdn.com/dms/image/C4D03AQFdx-nOeBMxtg/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=1Xj4vKrYG9yo4V0PEp3G142F7t7HhODMdjTXaKwZO_U"
+          src={myPhoto}
           alt="Me"
         ></img>
       </div>
@@ -56,7 +61,8 @@ function TopNav() {
             target="_blank"
             rel="noopener noreferrer">
             <img className="fluid"
-              src="https://pngimg.com/uploads/github/github_PNG83.png"
+              // src="https://pngimg.com/uploads/github/github_PNG83.png"
+              src={github}
               alt="github"
             ></img>
           </NavDropdown.Item>
@@ -66,7 +72,8 @@ function TopNav() {
             rel="noopener noreferrer">
             <img
               className="fluid"
-              src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_black-512.png"
+              src={linkedin}
+              // src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_black-512.png"
               alt="linkedin"
             ></img>
           </NavDropdown.Item>
@@ -76,7 +83,8 @@ function TopNav() {
             rel="noopener noreferrer">
             <img
               className="fluid"
-              src="https://image.flaticon.com/icons/png/512/14/14573.png"
+              // src="https://image.flaticon.com/icons/png/512/14/14573.png"
+              src={resume}
               alt="resume"
             ></img>
           </NavDropdown.Item>
