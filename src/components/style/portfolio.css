@@ -1,6 +1,12 @@
 .hide {
     display: none;
 }
+button {
+    border: transparent;
+    outline: none;
+    box-shadow: none!important;
+}
+
 .portfolio h1{
     font-family: 'Pacifico', cursive;
     padding-bottom: 1%;
