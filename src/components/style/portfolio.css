@@ -2,9 +2,13 @@
     display: none;
 }
 button {
-    border: transparent;
-    outline: none;
+    outline: none!important;
     box-shadow: none!important;
+    padding: 0% 2%;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 2px white;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
 }
 
 .portfolio h1{
@@ -55,5 +59,9 @@ button {
     .portfolio h1{ 
         font-size: 45px;
         margin-left: 0;
+    }
+    button {
+        font-size: 22px;
+        margin: 6px, 0;
     }
 }
