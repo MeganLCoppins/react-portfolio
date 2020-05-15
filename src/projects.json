@@ -19,6 +19,15 @@
     },
     {
         "id": 3,
+        "title": "Book-Finder",
+        "description": "The Book Finder app is a MERN application that utilizes React components, helper/util functions, React lifecycle methods to query and display books based on user searches. Node, Express, and MongoDB were also used to allow users to save searched books to review or purchase later.",
+        "technologies": "React.js, CSS, Bootstrap, JavaScript/jQuery, Google Books API, Express, Node.js, MongoDB",
+        "deployed": "https://react-book-finder5.herokuapp.com/",
+        "github": "https://github.com/MeganLCoppins/Book-Finder",
+        "image": "https://github.com/MeganLCoppins/Book-Finder/blob/master/client/src/assets/main.png?raw=true"
+    },
+    {
+        "id": 4,
         "title": "Note-Taker",
         "description": "A note-taking application for users that need to keep track of a lot of information. The application allows the user to take notes and have written information available when needed.",
         "technologies": "HTML, CSS, Bootstrap, JavaScript, Express, Node.js, UUID",
@@ -27,30 +36,12 @@
         "image": "https://github.com/MeganLCoppins/note-taker/raw/master/public/assets/images/NoteTaker.png"
     },
     {
-        "id": 4,
-        "title": "Strategy Scope",
-        "description": "A MERN project management application that gives teams access to a one stop shop for their project needs to increase the teams efficency.",
-        "technologies": "React.js, JavaScript, React Bootstrap, Node.js, Express, Axios, MongoDB, React Calendar, React Beautiful Drag n Drop, Socket.io, AuthO",
-        "deployed": "http://strategy-scope.herokuapp.com/",
-        "github": "https://github.com/MeganLCoppins/miniature-disco",
-        "image": "https://github.com/MeganLCoppins/miniature-disco/blob/master/images/kanban.png?raw=true"
-    },
-    {
         "id": 5,
-        "title": "Budget Tracker",
-        "description": "A PWA created to allow user's to track their budget. Users are able to add expenses and deposits to their budget with or without an internet connection.",
-        "technologies": "HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, IndexedDB, Morgan, Compression, Lite-Server",
-        "deployed": "https://pumpkin-pie-14585.herokuapp.com/",
-        "github": "https://github.com/MeganLCoppins/budget-tracker",
-        "image": "https://github.com/MeganLCoppins/budget-tracker/raw/master/assets/budget_tracker.png"
-    },
-    {
-        "id": 6,
         "title": "Flavor Savor",
         "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes, a link to the recipe, and a picture of the meal.",
         "technologies": "HTML, CSS, Bulma, Javascript, Glide.js, Edamam API, Giphys API",
-        "deployed": "https://dorntrevor7.github.io/Flavor-Savor/",
+        "deployed": "https://meganlcoppins.github.io/Flavor-Savor/",
         "github": "https://github.com/MeganLCoppins/Flavor-Savor",
-        "image": "https://github.com/MeganLCoppins/Flavor-Savor/raw/master/assets/imgs/flavor-savor-sc.png"
+        "image": "https://github.com/MeganLCoppins/Flavor-Savor/blob/master/assets/imgs/main.png?raw=true"
     }
 ]
