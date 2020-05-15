@@ -33,10 +33,10 @@
         "technologies": "HTML, CSS, Bootstrap, JavaScript, Express, Node.js, UUID",
         "deployed": "https://mighty-shelf-20145.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/note-taker",
-        "image": "https://github.com/MeganLCoppins/note-taker/raw/master/public/assets/images/NoteTaker.png"
+        "image": "https://github.com/MeganLCoppins/note-taker/blob/master/public/assets/images/main.png?raw=true"
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Flavor Savor",
         "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes, a link to the recipe, and a picture of the meal.",
         "technologies": "HTML, CSS, Bulma, Javascript, Glide.js, Edamam API, Giphys API",
