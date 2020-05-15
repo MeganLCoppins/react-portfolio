@@ -42,7 +42,7 @@ function Portfolio(){
                   <Card.Link href={project.github} target="_blank"
             rel="noopener noreferrer" style={{ color: "white", fontSize: "23px"}}><strong>GitHub</strong></Card.Link>
                 </div>
-              <Card.Img id="portImg" variant="top" src={project.image} style={{width: "80%", height: "45%"}}/>
+              <Card.Img id="portImg" variant="top" src={project.image} style={{width: "84%", height: "45%"}}/>
               <div>
               <div className={visible} style={{marginTop: "4px"}}>
                 <Card.Text style={{width: "82%", textAlign: "center", marginLeft: "8%", marginTop: "0%"}}>{project.description}</Card.Text>
