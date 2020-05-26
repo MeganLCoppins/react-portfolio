@@ -29,7 +29,7 @@
     {
         "id": 4,
         "title": "Note-Taker",
-        "description": "A note-taking application for users that need to keep track of a lot of information. The application allows the user to take notes and have written information available when needed.",
+        "description": "A note-taking application for users that need to keep track of a lot of information. The application uses an express back-end to allow user's to take notes and have written information available when needed.",
         "technologies": "HTML, CSS, Bootstrap, JavaScript, Express, Node.js, UUID",
         "deployed": "https://mighty-shelf-20145.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/note-taker",

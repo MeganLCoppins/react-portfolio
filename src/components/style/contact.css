@@ -12,18 +12,15 @@
 .contact img {
   width: 10%;
   height: 10%;
-  margin-left: 18%;
-  margin-top: 5%;
-  padding-bottom: 2%;
+  margin-left: 5%;
 }
 .form h3 {
-  color: white;
+  color: black;
   font-size: 40px;
 }
 .form {
   margin-top: 0%;
-  padding: 8%;
-  padding-bottom: 10%;
+  padding: 2%;
   text-align: center;
   background-color: rgb(1, 106, 117);
   color: white;
@@ -35,9 +32,13 @@
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border: solid 10px black;
   margin-bottom: 10%;
+  overflow-x: auto;
 }
-@media screen and (max-width: 1024px){
-  .contact{
+iframe {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .contact {
     margin-bottom: 100%;
   }
 }
@@ -60,10 +61,5 @@
   .backgroundImg {
     width: 100%;
     margin-left: 0%;
-  }
-}
-@media only screen and (max-width: 375px) {
-  .contact {
-    margin-bottom: 110%;
   }
 }
