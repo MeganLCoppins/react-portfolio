@@ -18,11 +18,9 @@ function Portfolio(){
     if(visible === "hide"){
       setVisible("show");
       setArrow("Close")
-      // setArrow("https://www.perse.co.uk/wp-content/themes/perse/static/img/icons/cal-arrow-up.svg");
     } else {
       setVisible("hide");
       setArrow("Details..");
-      // setArrow("https://www.perse.co.uk/wp-content/themes/perse/static/img/icons/cal-arrow-down.svg");
     }
   }
 
