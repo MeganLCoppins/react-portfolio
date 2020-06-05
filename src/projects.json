@@ -36,12 +36,21 @@
         "image": "https://github.com/MeganLCoppins/note-taker/blob/master/public/assets/images/main.png?raw=true"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Flavor Savor",
         "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes, a link to the recipe, and a picture of the meal.",
         "technologies": "HTML, CSS, Bulma, Javascript, Glide.js, Edamam API, Giphys API",
         "deployed": "https://meganlcoppins.github.io/Flavor-Savor/",
         "github": "https://github.com/MeganLCoppins/Flavor-Savor",
         "image": "https://github.com/MeganLCoppins/Flavor-Savor/blob/master/assets/imgs/main.png?raw=true"
+    },
+    {
+        "id": 6,
+        "title": "Strategy Scope",
+        "description": "A MERN project management application that reduces the hassle of switching between multiple applications by combining a kanban board with a chat system to provide you with a one stop shop for your project needs.",
+        "technologies": "React, Express, Node, MongoDB, Axios, React-Bootstrap,React Calendar, React Router, React Beautiful Drag N Drop, Socket.io, Auth0",
+        "deployed": "https://strategyscope.herokuapp.com/",
+        "github": "https://github.com/MeganLCoppins/Strategy-Scope",
+        "image": ""
     }
 ]
