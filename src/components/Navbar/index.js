@@ -19,11 +19,8 @@ function TopNav() {
         fontFamily: "'Pacifico', cursive",
       }}
     >
-      <div className="myPhoto" >
-        <img
-          src={myPhoto}
-          alt="Me"
-        ></img>
+      <div className="myPhoto">
+        <img src={myPhoto} alt="Me"></img>
       </div>
       <div>
         <NavDropdown
@@ -56,37 +53,29 @@ function TopNav() {
             Contact
           </NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item style={{ display: "flex", paddingLeft: "40%" }}
+          <NavDropdown.Item
+            style={{ display: "flex", paddingLeft: "40%" }}
             href="https://github.com/MeganLCoppins"
             target="_blank"
-            rel="noopener noreferrer">
-            <img className="fluid"
-              // src="https://pngimg.com/uploads/github/github_PNG83.png"
-              src={github}
-              alt="github"
-            ></img>
+            rel="noopener noreferrer"
+          >
+            <img className="fluid" src={github} alt="github"></img>
           </NavDropdown.Item>
-          <NavDropdown.Item style={{ display: "flex", paddingLeft: "40%" }}
+          <NavDropdown.Item
+            style={{ display: "flex", paddingLeft: "40%" }}
             href="https://linkedin.com/in/meganlcoppins"
             target="_blank"
-            rel="noopener noreferrer">
-            <img
-              className="fluid"
-              src={linkedin}
-              // src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_black-512.png"
-              alt="linkedin"
-            ></img>
+            rel="noopener noreferrer"
+          >
+            <img className="fluid" src={linkedin} alt="linkedin"></img>
           </NavDropdown.Item>
-          <NavDropdown.Item style={{ display: "flex", paddingLeft: "40%" }}
+          <NavDropdown.Item
+            style={{ display: "flex", paddingLeft: "40%" }}
             href="https://docs.google.com/document/d/1lhn3SBdrLm5w7USTxYUEZpjXkHWvaa75mPgOB6cZwNY/edit?usp=sharing"
             target="_blank"
-            rel="noopener noreferrer">
-            <img
-              className="fluid"
-              // src="https://image.flaticon.com/icons/png/512/14/14573.png"
-              src={resume}
-              alt="resume"
-            ></img>
+            rel="noopener noreferrer"
+          >
+            <img className="fluid" src={resume} alt="resume"></img>
           </NavDropdown.Item>
         </NavDropdown>
       </div>

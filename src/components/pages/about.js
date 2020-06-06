@@ -4,9 +4,9 @@ import css from "../../assets/css_icon.png";
 import bootstrap from "../../assets/bootstrap_icon.png";
 import javascript from "../../assets/javascript-icon.png";
 import mysql from "../../assets/mysql_icon.png";
-import mongodb from "../../assets/mongodb_icon.png";
-import react from "../../assets/react_icon.webp";
-import node from "../../assets/node.jpg";
+import mongodb from "../../assets/mongodb.png";
+import react from "../../assets/react.png";
+import node from "../../assets/node.png";
 import "../style/about.css";
 
 function About() {
@@ -29,49 +29,41 @@ function About() {
           <img
             className="img-fluid imgOne"
             src={html}
-            // src="https://icon-library.net/images/html5-icon-png/html5-icon-png-4.jpg"
             alt="html5"
           ></img>
           <img
             className="img-fluid"
             src={css}
-            // src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png"
             alt="css3"
           ></img>
           <img
             className="img-fluid"
             src={bootstrap}
-            // src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
             alt="bootstrap"
           ></img>
           <img
             className="img-fluid"
             src={javascript}
-            // src="https://i.ya-webdesign.com/images/vector-javascript-14.png"
             alt="js"
           ></img>
           <img
             className="img-fluid"
             src={node}
-            // src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
             alt="node.js"
           ></img>
           <img
             className="img-fluid"
             src={react}
-            // src="https://www.fullstacklabs.co/img/referral/Technologies/tech_react.png"
             alt="react"
           ></img>
           <img
             className="img-fluid"
             src={mysql}
-            // src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-512.png"
             alt="MySQL"
           ></img>
           <img
             className="img-fluid"
             src={mongodb}
-            // src="https://toppng.com/uploads/preview/mongo-db-design-mongodb-logo-mongodb-11562879783bwj2cknalk.png"
             alt="mongoDB"
           ></img>
         </div>
