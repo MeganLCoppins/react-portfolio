@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de0efc2e77eeb20be8c742c85f1cf9c1",
+    "revision": "347acd3db7a4fdee614b1ae0c03b2c86",
     "url": "/react-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "ecaf264629469f604380",
-    "url": "/react-portfolio/static/css/main.0a947f30.chunk.css"
+    "revision": "083581795466d4b75810",
+    "url": "/react-portfolio/static/css/main.f61f712a.chunk.css"
   },
   {
     "revision": "6a33a40b11bde2b5211a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.8f33d46e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecaf264629469f604380",
-    "url": "/react-portfolio/static/js/main.bace0215.chunk.js"
+    "revision": "083581795466d4b75810",
+    "url": "/react-portfolio/static/js/main.fac967a8.chunk.js"
   },
   {
     "revision": "0346f5e54be923396aed",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/linkedin.a08f59f4.png"
   },
   {
-    "revision": "3e8365ae88561944f755d884afafeaab",
-    "url": "/react-portfolio/static/media/mongodb_icon.3e8365ae.png"
+    "revision": "a5ed0497fe66f667ffbf2ef7c82232af",
+    "url": "/react-portfolio/static/media/mongodb.a5ed0497.png"
   },
   {
     "revision": "162b5bd240f8b2c00426d36b51de78c6",
@@ -64,11 +64,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/nav_background.d777c625.jpg"
   },
   {
-    "revision": "a061635809d2bbd9f3455168f2c6ba99",
-    "url": "/react-portfolio/static/media/node.a0616358.jpg"
+    "revision": "c502658a509d27b53679b3ef73c0d82f",
+    "url": "/react-portfolio/static/media/node.c502658a.png"
   },
   {
-    "revision": "1d68ebe4c34d1e49e1a0a09513c340c8",
-    "url": "/react-portfolio/static/media/react_icon.1d68ebe4.webp"
+    "revision": "248cb156cf25bd359ef4705fb4306762",
+    "url": "/react-portfolio/static/media/react.248cb156.png"
   }
 ]);
