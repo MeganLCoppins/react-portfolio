@@ -5,7 +5,7 @@ import myPhoto from "../../assets/myphoto.png";
 import "../../assets/nav_background.jpg";
 import resume from "../../assets/portfolio_icon.png";
 import github from "../../assets/github_icon.png";
-import linkedin from "../../assets/linkedin_icon.webp";
+import linkedin from "../../assets/linkedin.png";
 import "./style.css";
 
 function TopNav() {

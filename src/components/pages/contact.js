@@ -2,7 +2,7 @@ import React from "react";
 import "../style/contact.css";
 import resume from "../../assets/portfolio_icon.png";
 import github from "../../assets/github_icon.png";
-import linkedin from "../../assets/linkedin_icon.webp";
+import linkedin from "../../assets/linkedin.png";
 
 function Contact() {
   return (
