@@ -13,7 +13,7 @@ export default function Header() {
       }}
     >
       <a
-        href="/"
+        href="/react-portfolio/"
         style={{
           textShadow: `none`,
           backgroundImage: `none`,

@@ -58,6 +58,6 @@
         "technologies": "React, Express, Node, MongoDB, Axios, React-Bootstrap,React Calendar, React Beautiful Drag N Drop, Socket.io, Auth0",
         "deployed": "https://strategyscope.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/Strategy-Scope",
-        "image": "https://github.com/MeganLCoppins/react-portfolio/blob/master/src/assets/strategyscope.png?raw=true"
+        "image": "https://github.com/MeganLCoppins/Strategy-Scope/raw/master/images/kanbanview.png"
     }
 ]

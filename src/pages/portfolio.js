@@ -35,6 +35,7 @@ export default function Portfolio() {
                 <div className="card-body">
                   <a
                     href={project.deployed}
+                    target="_blank"
                     className="btn btn-primary"
                     style={{ marginRight: "5%" }}
                   >
