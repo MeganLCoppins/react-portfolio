@@ -1,30 +1,28 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/Navbar/index";
-import Home from "./components/pages/home";
-import About from "./components/pages/about";
-import Portfolio from "./components/pages/portfolio";
-import Contact from "./components/pages/contact";
+import Index from "./pages/index";
+import About from "./pages/about";
+import Portfolio from "./pages/portfolio";
+import Contact from "./pages/contact";
 
-function App(){
+function App() {
   return (
-    <div>
-    <Navbar />
-        <div id="home">
-        </div>
-      <Home />
-        <div id="about" >
-        </div>
-      <About />
-        <div id="portfolio">
-        </div>
-      <Portfolio />
-        <div id="contact">
-        </div>
-      <Contact />
-      </div>
-  )
+    <BrowserRouter>
+      <section id="index">
+        <Index />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="portfolio" style={{ overflowX: "hidden" }}>
+        <Portfolio />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+    </BrowserRouter>
+  );
 }
 
 export default App;

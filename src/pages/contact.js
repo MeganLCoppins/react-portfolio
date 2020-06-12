@@ -1,31 +1,21 @@
 import React from "react";
+import Layout from "../components/layout";
+import github from "../images/github_icon.png";
+import linkedin from "../images/linkedin.png";
+import resume from "../images/portfolio_icon.png";
 import "../style/contact.css";
-import resume from "../../assets/portfolio_icon.png";
-import github from "../../assets/github_icon.png";
-import linkedin from "../../assets/linkedin.png";
 
-function Contact() {
+export default function Contact() {
   return (
-    <div className="contact">
-      <h1>Let's Get In Touch!</h1>
-      <div className="backgroundImg">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfghwHNFUpa-XQ_YRz70q-_t36Sv9WMNop3yP49P3x-wBgRSA/viewform?embedded=true"
-          width="1200"
-          height="800"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
-        >
-          Loading…
-        </iframe>
+    <Layout>
+      <div id="heading">
+        <h1>Let's Get in Contact!</h1>
         <div className="form">
           <a
             href="https://github.com/MeganLCoppins"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             <img className="fluid" src={github} alt="github"></img>
           </a>
           <a
@@ -33,7 +23,6 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             <img className="fluid" src={linkedin} alt="linkedin"></img>
           </a>
           <a
@@ -41,13 +30,22 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             <img className="fluid" src={resume} alt="resume"></img>
           </a>
         </div>
       </div>
-    </div>
+      <div className="backgroundImg">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfghwHNFUpa-XQ_YRz70q-_t36Sv9WMNop3yP49P3x-wBgRSA/viewform?embedded=true"
+          width="800"
+          height="800"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+        >
+          Loading…
+        </iframe>
+      </div>
+    </Layout>
   );
 }
-
-export default Contact;

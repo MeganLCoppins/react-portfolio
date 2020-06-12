@@ -1,0 +1,71 @@
+#work {
+  background: rgb(247, 122, 142);
+  text-align: center;
+  height: 180px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+#work h1 {
+  padding-top: 5%;
+}
+.project {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  padding: 0.5%;
+}
+.project h3 {
+  margin: 2%;
+}
+@media screen and (max-width: 770px) {
+  .projCard {
+    margin: 0;
+    width: 21rem !important;
+  }
+  #work {
+    margin-top: 5%;
+  }
+  #work h1 {
+    padding-top: 8%;
+  }
+}
+@media screen and (max-width: 700px) {
+  #work h1 {
+    padding-top: 18%;
+  }
+  #work {
+    margin-top: 10%;
+  }
+  .project {
+    margin: 0;
+  }
+  .projCard {
+    width: 22rem !important;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .projCard {
+    width: 22rem !important;
+    padding: 5% !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .projCard {
+    width: 20rem !important;
+    padding: 5% !important;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .projCard {
+    width: 19rem !important;
+    padding: 5% !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .projCard {
+    width: 17rem !important;
+  }
+}

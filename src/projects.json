@@ -1,8 +1,9 @@
 [
     {
         "id": 1,
+        "background": "lavender",
         "title": "Weather Dashboard",
-        "description": "A weather application that allows you to search for a city, view the current five-day forecast of the searched city, and view your search history.",
+        "description": "A weather application that allows you to search for a city, view the current five-day forecast of the searched city, and view your search history. The application displays the temperature, humidity, wind speed, and UV index.",
         "technologies": "HTML, CSS, Bootstrap, JavaScript, Local Storage, OpenWeather API",
         "deployed": "https://meganlcoppins.github.io/Weather-Dashboard/",
         "github": "https://github.com/MeganLCoppins/Weather-Dashboard",
@@ -10,8 +11,9 @@
     },
     {
         "id": 2,
+        "background": "#AFE9C6",
         "title": "Work-Day-Scheduler",
-        "description": "A daily work calendar that allows the user to save their to-dos in specific time slots. As the day progresses the time slots change color to show if the slot is in the past, present or future.",
+        "description": "A daily work calendar that allows the user to save their to-dos in specific time slots. As the day progresses the slots change color to show if the slot is in the past, present or future. At the end of the day the user is able to reset their to-do's.",
         "technologies": "HTML, CSS, Bootstrap, JavaScript, Local Storage, Moment.js",
         "deployed": "https://meganlcoppins.github.io/Work-Day-Scheduler/",
         "github": "https://github.com/MeganLCoppins/Work-Day-Scheduler",
@@ -19,36 +21,41 @@
     },
     {
         "id": 3,
+        "background": "#FFEEAA",
         "title": "Book-Finder",
-        "description": "The Book Finder app is a MERN application that utilizes React components, helper/util functions, React lifecycle methods to query and display books based on user searches. Node, Express, and MongoDB were also used to allow users to save searched books to review or purchase later.",
-        "technologies": "React.js, CSS, Bootstrap, JavaScript/jQuery, Google Books API, Express, Node.js, MongoDB",
+        "description": "This is a MERN application that utilizes React components, helper/util functions, React lifecycle methods. The app queries and display books based on user searches and allow users to save searched books to review later.",
+        "technologies": "React, CSS, Bootstrap, JavaScript, Google Books API, Express, Node, MongoDB",
         "deployed": "https://react-book-finder5.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/Book-Finder",
         "image": "https://github.com/MeganLCoppins/Book-Finder/blob/master/client/src/assets/main.png?raw=true"
     },
     {
         "id": 4,
-        "title": "Note-Taker",
-        "description": "A note-taking application for users that need to keep track of a lot of information. The application uses an express back-end to allow user's to take notes and have written information available when needed.",
-        "technologies": "HTML, CSS, Bootstrap, JavaScript, Express, Node.js, UUID",
-        "deployed": "https://mighty-shelf-20145.herokuapp.com/",
-        "github": "https://github.com/MeganLCoppins/note-taker",
-        "image": "https://github.com/MeganLCoppins/note-taker/blob/master/public/assets/images/main.png?raw=true"
-    },
-    {
-        "id": 5,
+        "background": "#FFB380",
         "title": "Flavor Savor",
-        "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes, a link to the recipe, and a picture of the meal.",
+        "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes and a link to the recipe.",
         "technologies": "HTML, CSS, Bulma, Javascript, Glide.js, Edamam API, Giphys API",
         "deployed": "https://meganlcoppins.github.io/Flavor-Savor/",
         "github": "https://github.com/MeganLCoppins/Flavor-Savor",
         "image": "https://github.com/MeganLCoppins/Flavor-Savor/blob/master/assets/imgs/main.png?raw=true"
     },
     {
+        "id": 5,
+        "background": "#AAEEFF",
+        "title": "Note-Taker",
+        "description": "A note-taking application for users that need to keep track of a lot of information. The application uses an express back-end to allow user's to view, edit, and create notes.",
+        "technologies": "HTML, CSS, Bootstrap, JavaScript, Express, Node.js, UUID",
+        "deployed": "https://mighty-shelf-20145.herokuapp.com/",
+        "github": "https://github.com/MeganLCoppins/note-taker",
+        "image": "https://github.com/MeganLCoppins/note-taker/blob/master/public/assets/images/main.png?raw=true"
+    },
+
+    {
         "id": 6,
+        "background": "#E3DEDB",
         "title": "Strategy Scope",
-        "description": "A MERN project management application that reduces the hassle of switching between multiple applications by combining a kanban board with a chat system to provide you with a one stop shop for your project needs.",
-        "technologies": "React, Express, Node, MongoDB, Axios, React-Bootstrap,React Calendar, React Router, React Beautiful Drag N Drop, Socket.io, Auth0",
+        "description": "A MERN project management application that combines a kanban board with a chat system to provide you with a one stop shop for your project needs.",
+        "technologies": "React, Express, Node, MongoDB, Axios, React-Bootstrap,React Calendar, React Beautiful Drag N Drop, Socket.io, Auth0",
         "deployed": "https://strategyscope.herokuapp.com/",
         "github": "https://github.com/MeganLCoppins/Strategy-Scope",
         "image": "https://github.com/MeganLCoppins/react-portfolio/blob/master/src/assets/strategyscope.png?raw=true"
