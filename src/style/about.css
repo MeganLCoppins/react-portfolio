@@ -22,12 +22,16 @@
 }
 #languages {
   margin-top: 8%;
+  margin-left: 3%;
   padding-top: 1%;
 }
 #languages li {
   list-style: none;
   margin-left: 1.5%;
   color: rgb(123, 123, 172);
+}
+#experience {
+  margin-left: 3%;
 }
 #experience li {
   list-style: none;
@@ -40,6 +44,7 @@
 @media screen and (max-width: 700px) {
   #languages {
     margin-top: 18%;
+    margin-left: 0;
   }
   #aboutMe {
     display: block;
