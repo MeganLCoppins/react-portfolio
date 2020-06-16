@@ -19,6 +19,7 @@ export default function Home() {
         <button id="homeBtn">
           <img
             src={arrow}
+            alt="arrow"
             style={{
               width: "120px",
               height: "120px",

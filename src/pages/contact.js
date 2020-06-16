@@ -37,6 +37,7 @@ export default function Contact() {
       <div className="backgroundImg">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSfghwHNFUpa-XQ_YRz70q-_t36Sv9WMNop3yP49P3x-wBgRSA/viewform?embedded=true"
+          title="contact form"
           width="800"
           height="800"
           frameBorder="0"

@@ -11,9 +11,8 @@ export default function Portfolio() {
       <div className="container">
         <div className="row">
           {projects.map((project) => (
-            <div className="col-md-6" style={{ margin: "1%" }}>
+            <div key={project.id} className="col-md-6" style={{ margin: "1%" }}>
               <div
-                key={project.id}
                 className="card projCard"
                 style={{
                   width: "25rem",
@@ -36,6 +35,7 @@ export default function Portfolio() {
                   <a
                     href={project.deployed}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="btn btn-primary"
                     style={{ marginRight: "5%" }}
                   >
