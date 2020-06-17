@@ -53,7 +53,7 @@ export default function About() {
             >
               Full Stack Web Developer with a passion for solving complex
               challenges. While working in the nutrition field I developed a
-              passion for coding. I found that coding fullfills what I am
+              passion for coding. I found that coding fulfills what I am
               longing for in a career, which is to be able to continuously
               expand on my knowledge, utilize my problem solving skills, and
               help others by building useful, efficient, and aesthetically
