@@ -18,6 +18,9 @@
 .project h3 {
   margin: 2%;
 }
+.projCard {
+  box-shadow: 8px 10px #888888;
+}
 @media screen and (max-width: 770px) {
   .projCard {
     margin: 0;
