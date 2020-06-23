@@ -45,6 +45,7 @@
   #languages {
     margin-top: 18%;
     margin-left: 0;
+    padding-right: 2%;
   }
   #aboutMe {
     display: block;
@@ -56,6 +57,7 @@
   }
   #experience {
     margin: 0;
+    padding-right: 2%;
   }
 }
 @media screen and (max-width: 320px) {

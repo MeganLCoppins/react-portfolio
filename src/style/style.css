@@ -1,45 +1,33 @@
+#main {
+  margin: auto;
+  height: 100%;
+}
 #intro {
   text-align: center;
-  margin-bottom: 3%;
-  height: 350px;
+  margin-top: 5%;
+  height: 310px;
 }
 #intro h1 {
     margin-top: 1%;
 }
-#homeBtn {
-  position: absolute;
-  left: 45%;
-  top: 45%;
-  background: none;
-  border: none;
-  outline: none;
-}
 #developer {
   text-align: center;
   background: lavender;
-  padding: 9% 0;
+  height: 380px;
+  justify-content: center;
 }
-@media screen and (max-width: 1025px){
-  #homeBtn {
-    left: 41%;
-    top: 23%;
-  }
-  #intro {
-    padding: 10% 10px;
-  }
-  #homeBtn{
-    display: none;
-  }
+#developer h1 {
+  padding-top: 8%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px){
   #intro {
-    padding-top: 12%;
-    height: 300px;
+    margin-top: 10%;
+    height: 290px;
   }
   #developer {
-      padding: 20% 10%;
+    height: 380px;
   }
-  #homeBtn {
-    display: none;
+  #developer h1 {
+    padding-top: 12%;
   }
 }

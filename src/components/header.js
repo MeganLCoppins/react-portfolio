@@ -9,7 +9,7 @@ export default function Header() {
         position: "fixed",
         top: "0",
         width: "100%",
-        marginBottom: "10%",
+        // marginBottom: "10%",
       }}
     >
       <a
