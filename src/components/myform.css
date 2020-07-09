@@ -13,11 +13,20 @@ input:focus, textarea {
     outline: none ! important; 
 } 
 #submitBtn {
-    margin-top: 4%;
+    margin-top: 2%;
     padding: 1% 2%;
     border: none;
     border-bottom: 3px solid rgb(147, 209, 173);
     background: rgba(219, 236, 227, 0.878);
     font-weight: bold;
     font-size: 16px;
+}
+#submitBtn:focus {
+    outline: none!important;
+}
+@media screen and (max-width: 800px){
+    #contactForm{
+        margin: 0;
+        width: 100%;
+    }
 }
