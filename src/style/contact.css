@@ -8,6 +8,10 @@
 #heading h1 {
     padding-top: 2%;
 }
+.backgroundImg {
+    margin-left: 15%;
+    justify-content: center;
+}
 .form {
     margin-left: 14%;
 }

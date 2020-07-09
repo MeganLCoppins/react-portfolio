@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import github from "../images/github_icon.png";
 import linkedin from "../images/linkedin.png";
 import resume from "../images/portfolio_icon.png";
+import MyForm from "../components/myform";
 import "../style/contact.css";
 
 export default function Contact() {
@@ -35,17 +36,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="backgroundImg">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfghwHNFUpa-XQ_YRz70q-_t36Sv9WMNop3yP49P3x-wBgRSA/viewform?embedded=true"
-          title="contact form"
-          width="800"
-          height="800"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
-        >
-          Loading…
-        </iframe>
+        <MyForm/>
       </div>
     </Layout>
   );
