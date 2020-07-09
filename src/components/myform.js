@@ -13,15 +13,6 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-    //   <div
-    //     className="col-md-4"
-    //     style={{
-    //       display: "block",
-    //       margin: "5% 10%",
-    //       width: "90%",
-    //       height: "100%",
-    //     }}
-    //   >
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/mpzyybne"
@@ -29,7 +20,6 @@ export default class MyForm extends React.Component {
           id="contactForm"
           style={{
             margin: "3% 10%",
-            // width: "90%",
             height: 800,
           }}
         >
@@ -58,7 +48,6 @@ export default class MyForm extends React.Component {
           )}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
-    //   </div>
     );
   }
 
