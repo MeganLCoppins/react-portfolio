@@ -17,8 +17,8 @@ export default class MyForm extends React.Component {
         className="col-md-4"
         style={{
           display: "block",
-          margin: "5% auto",
-          width: "80%",
+          margin: "5% 10%",
+          width: "90%",
           height: "100%",
         }}
       >
