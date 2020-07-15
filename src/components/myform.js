@@ -19,8 +19,8 @@ export default class MyForm extends React.Component {
           method="POST"
           id="contactForm"
           style={{
-            margin: "3% 10%",
-            height: 800,
+            margin: "5% 10%",
+            height: 500,
           }}
         >
           <input type="name" name="name" className="contactInput" />

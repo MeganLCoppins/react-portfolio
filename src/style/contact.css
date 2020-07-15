@@ -23,6 +23,18 @@
 iframe {
     width: 100%;
 }
+footer {
+    text-align: center;
+    border-top: 2px solid gainsboro;
+    background-image: url("../images/nav-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    margin-top: 2%;
+    padding: 2% 0;
+    margin-bottom: 0!important;
+}
 @media screen and (max-width: 800px){
     #heading {
         margin-top: 10%;

@@ -4,6 +4,7 @@ import github from "../images/github_icon.png";
 import linkedin from "../images/linkedin.png";
 import resume from "../images/portfolio_icon.png";
 import MyForm from "../components/myform";
+import myImage from "../images/photoOfMe.png";
 import "../style/contact.css";
 
 export default function Contact() {
@@ -38,6 +39,10 @@ export default function Contact() {
       <div className="backgroundImg">
         <MyForm/>
       </div>
+      <footer>
+        <h3>MeganLCoppins@gmail.com</h3>
+        <h5>Copyright © 2020 Megan Coppins. All rights reserved.</h5>
+      </footer>
     </Layout>
   );
 }
