@@ -6,15 +6,71 @@ a {
   margin-right: 3rem;
 }
 #links a {
-  /* font-weight: bold; */
   text-decoration: none;
   background-image: none;
   color: black;
   margin-right: 4%;
 }
+.divBar {
+  width: 35px;
+  height: 5px;
+  background: black;
+  margin: 6px 0;
+}
+.bar1, .bar2, .bar3{
+  width: 55px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.bar1, .bar3 {
+  background-color: rgb(192, 192, 229);
+}
+.bar2 {
+  background-color: #008080;
+}
+/* Rotate first bar */
+.dropdown:hover .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+/* Fade out the second bar */
+.dropdown:hover .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.dropdown:hover .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  font-weight: normal;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #008080;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 @media screen and (max-width: 800px) {
   h3 {
-    font-size: 18px;
+    font-size: 23px;
   }
   #links a {
     font-size: 16px;
@@ -22,7 +78,7 @@ a {
 }
 @media screen and (max-width: 360px) {
   h3 {
-    font-size: 17px;
+    font-size: 23px;
   }
   #links a {
     font-size: 15px;
