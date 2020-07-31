@@ -52,7 +52,7 @@
 
     {
         "id": 6,
-        "background": "lightpink",
+        "background": "lightsteelblue",
         "title": "Strategy Scope",
         "description": "A MERN project management application that combines a kanban board with a chat system to provide you with a one stop shop for your project needs.",
         "technologies": "React, Express, Node, MongoDB, Axios, React-Bootstrap,React Calendar, React Beautiful Drag N Drop, Socket.io, Auth0",

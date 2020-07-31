@@ -15,7 +15,7 @@ function App() {
       <section id="about">
         <About />
       </section>
-      <section id="portfolio" style={{ overflowX: "hidden" }}>
+      <section id="portfolio" style={{ overflowX: "hidden"}}>
         <Portfolio />
       </section>
       <section id="contact">
