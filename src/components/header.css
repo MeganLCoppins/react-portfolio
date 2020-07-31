@@ -81,7 +81,6 @@ a {
 @media screen and (max-width: 360px) {
   h3 {
     font-size: 23px;
-    /* margin-right: 2rem!important; */
   }
   #links a {
     font-size: 15px;

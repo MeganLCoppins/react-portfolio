@@ -1,7 +1,4 @@
 #work {
-  /* background: rgb(252, 164, 178); */
-  /* background:#FFAAAA; */
-  /* background: rgb(252, 243, 194); */
   background: rgb(185, 202, 224);
   text-align: center;
   height: 180px;
@@ -30,63 +27,15 @@ a {
   box-shadow: 1px 2px 8px 10px #888888;
 }
 @media screen and (max-width: 900px) {
-  /* #work {
-    padding-top: 6%;
-  } */
   .projCard {
     box-shadow: 1px 2px 8px 5px #888888;
   }
   .portfolioImg {
     width: 80%!important;
   }
-  /* #work {
-    margin-top: 5%;
-  }
-  #work h1 {
-    padding-top: 8%;
-  } */
 }
 @media screen and (max-width: 700px){
   #work{
     padding-top: 6%;
   }
 }
-/* @media screen and (max-width: 700px) {
-  #work h1 {
-    padding-top: 18%;
-  }
-  #work {
-    margin-top: 10%;
-  }
-  .project {
-    margin: 0;
-  }
-  .projCard {
-    width: 22rem !important;
-    margin: 0;
-  }
-}
-@media screen and (max-width: 420px) {
-  .projCard {
-    width: 22rem !important;
-    padding: 5% !important;
-  }
-}
-@media screen and (max-width: 375px) {
-  .projCard {
-    width: 20rem !important;
-    padding: 5% !important;
-    justify-content: center !important;
-  }
-}
-@media screen and (max-width: 360px) {
-  .projCard {
-    width: 19rem !important;
-    padding: 5% !important;
-  }
-}
-@media screen and (max-width: 330px) {
-  .projCard {
-    width: 17rem !important;
-  }
-} */

@@ -40,7 +40,6 @@ export default function Contact() {
         <MyForm/>
       </div>
       <footer>
-        {/* <h3>MeganLCoppins@gmail.com</h3> */}
         <h5>Copyright © 2020 Megan Coppins. All rights reserved.</h5>
       </footer>
     </Layout>

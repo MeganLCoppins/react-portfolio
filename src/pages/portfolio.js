@@ -15,8 +15,6 @@ export default function Portfolio() {
               <div
                 className="card projCard"
                 style={{
-                  // width: "25rem",
-                  // height: "40rem",
                   background: project.background,
                   padding: ".5%",
                   margin: "1.5%",
