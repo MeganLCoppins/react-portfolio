@@ -15,8 +15,8 @@ export default function Portfolio() {
               <div
                 className="card projCard"
                 style={{
-                  width: "25rem",
-                  height: "40rem",
+                  // width: "25rem",
+                  // height: "40rem",
                   background: project.background,
                   padding: ".5%",
                   margin: "1.5%",
@@ -26,10 +26,10 @@ export default function Portfolio() {
               >
                 <h3 className="card-title">{project.title}</h3>
                 <img
-                  className="card-img-top"
+                  className="card-img-top portfolioImg"
                   src={project.image}
                   alt={project.title}
-                  style={{ width: "100%", height: "30%" }}
+                  style={{ width: "50%", height: "30%", marginBottom: "2%", border: "6px solid grey", borderRadius: "10px" }}
                 />
                 <div className="card-body">
                   <a
@@ -37,7 +37,7 @@ export default function Portfolio() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary"
-                    style={{ marginRight: "5%" }}
+                    style={{ marginRight: "5%"}}
                   >
                     Deployed Link
                   </a>

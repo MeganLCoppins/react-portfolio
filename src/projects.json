@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "background": "lavender",
+        "background": "#AFE9C6",
         "title": "Weather Dashboard",
         "description": "A weather application that allows you to search for a city, view the current five-day forecast of the searched city, and view your search history. The application displays the temperature, humidity, wind speed, and UV index.",
         "technologies": "HTML, CSS, Bootstrap, JavaScript, Local Storage, OpenWeather API",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "background": "#AFE9C6",
+        "background": "#FFEEAA",
         "title": "Work-Day-Scheduler",
         "description": "A daily work calendar that allows the user to save their to-dos in specific time slots. As the day progresses the slots change color to show if the slot is in the past, present or future. At the end of the day the user is able to reset their to-do's.",
         "technologies": "HTML, CSS, Bootstrap, JavaScript, Local Storage, Moment.js",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "background": "#FFEEAA",
+        "background": "#FFB380",
         "title": "Book-Finder",
         "description": "This is a MERN application that utilizes React components, helper/util functions, React lifecycle methods. The app queries and display books based on user searches and allow users to save searched books to review later.",
         "technologies": "React, CSS, Bootstrap, JavaScript, Google Books API, Express, Node, MongoDB",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "background": "#FFB380",
+        "background": "lavender",
         "title": "Flavor Savor",
         "description": "A group project to build a recipe application that finds recipes based on what food item the user searches for. The search displays a list of recipes and a link to the recipe.",
         "technologies": "HTML, CSS, Bulma, Javascript, Glide.js, Edamam API, Giphys API",

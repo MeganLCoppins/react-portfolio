@@ -1,6 +1,8 @@
 #work {
   /* background: rgb(252, 164, 178); */
-  background:#FFAAAA;
+  /* background:#FFAAAA; */
+  /* background: rgb(252, 243, 194); */
+  background: rgb(185, 202, 224);
   text-align: center;
   height: 180px;
   margin-bottom: 3%;
@@ -8,6 +10,11 @@
 }
 #work h1 {
   padding-top: 5%;
+}
+a {
+  text-decoration: none!important;
+  color: black;
+  font-weight: bold;
 }
 .project {
   text-align: center;
@@ -20,21 +27,28 @@
   margin: 2%;
 }
 .projCard {
-  box-shadow: 8px 10px #888888;
+  box-shadow: 1px 2px 8px 10px #888888;
 }
-@media screen and (max-width: 770px) {
-  .projCard {
-    margin: 0;
-    width: 21rem !important;
-  }
+@media screen and (max-width: 900px) {
   #work {
+    padding-top: 6%;
+  }
+  .projCard {
+    /* margin: 0;
+    width: 21rem !important; */
+    box-shadow: 1px 2px 8px 5px #888888;
+  }
+  .portfolioImg {
+    width: 80%!important;
+  }
+  /* #work {
     margin-top: 5%;
   }
   #work h1 {
     padding-top: 8%;
-  }
+  } */
 }
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   #work h1 {
     padding-top: 18%;
   }
@@ -72,4 +86,4 @@
   .projCard {
     width: 17rem !important;
   }
-}
+} */

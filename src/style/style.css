@@ -1,6 +1,7 @@
 #main {
   margin: auto;
   height: 100%;
+  overflow-x: hidden!important;
 }
 #intro {
   text-align: center;
